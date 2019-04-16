@@ -50,15 +50,17 @@ audio {
     color: white;
     display: block;
     vertical-align: center;
+    width: 400px;
 }
 
-#intro {
+#intro { 
 	border-left: 2px solid #8EB950;
+    margin-top: -150px;
 }
-.thesis {
-    width: 100%;
-    position: relative;
-    background-attachment: fixed;
+
+p.thesisblock {
+    width: 400px;
+    color: white;
 }
 
 /*image*/
@@ -93,6 +95,8 @@ audio {
 }
 
 
+*/
+
 #girls-silly {
     width:  100%;
     height: auto;
@@ -100,16 +104,6 @@ audio {
     margin-top: 5%;
     margin-bottom: 20%;
 }
-
-
-.block {
-    color: white;
-    width: 75%;
-    font-weight: 100;
-    margin-left: 5.5%;
-    margin-top: 2%;
-} */
-
 /*SECTION #3*/
 
 .container {
@@ -120,16 +114,17 @@ audio {
   position: relative; 
 }
 
-.text-block {
-  background-color: rgba(31,31,31,.75);
-  top: 20%;
-  
-}
-
 .NN-text {
     color: white;
     opacity: 1;
     width: 100%;
+}
+
+.hikingvid {
+    height: 100vh;
+    width: 100vw;
+	/*background-attachment: fixed;*/
+    position: absolute;
 }
 
 #row4 video {
@@ -153,8 +148,6 @@ audio {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	/*background-attachment: fixed;*/
-    position: absolute;
 }
 
 .NN-text {
@@ -166,7 +159,13 @@ audio {
 .text-block-2 {
   background-color: rgba(31,31,31,.75);
   margin-left: -70px;
-  margin-bottom: 1400px;
+  
+}
+
+.text-block-2a {
+  background-color: rgba(31,31,31,.75);
+  margin-left: -70px;
+  margin-top: -100px;
   
 }
 
@@ -187,17 +186,6 @@ audio {
 }
 
 /*SECTION 6*/
-#meetingphoto1 {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-.fullmeetingphoto {
-    height: 100vh;
-    position: relative;
- 	background-attachment: fixed;
-}
 
 /*SECTION 7*/
 
@@ -311,6 +299,18 @@ h3#scoutrankings {
     position: relative;
 }
 
+img#infographic {
+    width: 40%;
+    height: auto;
+    margin-left: 15%;
+}
+
+.captions {
+    color: white;
+    width: 90%;
+    margin-left: 3%;
+}
+
 /*SECTION 10*/
 .tonyintro {
   background: url(../img/rogers_selects_038-1.jpg);
@@ -409,7 +409,7 @@ p.why-BSA{
     width: 60%;
 }
 
-.pq-jamie{
+#pq-jamie{
     margin-left: 10%;
     margin-top: 33%;
     color: black;

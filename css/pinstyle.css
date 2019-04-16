@@ -63,24 +63,20 @@ body {
     position: relative;
 }
 
-#row4 iframe {
-    position: absolute;
+#row4 video {
+    position: relative;
     width: 100vw;
     height: 100vh;
-}
-
-#row4 p {
-    z-index: 10;
 }
 
 /* ---------- ROW 5 -------- */
 #row5 {
-    background-color: #1F1F1F;
     height: 100vh;
     width: 100vw;
+     background-attachment: fixed;
 }
 
-#row5-2 {
+#row5text {
     height: 100vh;
     width: 100vw; 
 }
@@ -92,7 +88,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     z-index: 0;
     position: absolute;
 }
@@ -121,30 +117,32 @@ body {
 #row8bg {
     position: relative;
     z-index: 100;
-	background-color: #1F1F1F;
-	opacity: .95;
+    background: none;
+	background-color: rgba(31,31,31,.75);
+	opacity: 1;
 	height: 100vh;
     width: 100vw; 
 }
 
 /* ---------- ROW 9 ----*/
 #row9 {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     position: relative;
+    background-image: url(../img/rogers_selects_037.jpg);
+	background-repeat: no-repeat;
 }
 #row9bg {
     position: relative;
     z-index: 100;
-	height: 100%;
+	height: 100vh;
     width: 100vw;
-    background-image: url(../img/rogers_selects_037_fade.jpg);
-	background-repeat: no-repeat;
 }
 
 #rankingtext {
     margin-left: 20%;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.5);
+    padding: 3%;
 }
 
 #row9-2 {

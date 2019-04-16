@@ -36,15 +36,15 @@
 }
 
 .card {
-    background-color: rgba(31,31,31,0);
+    background-color: #1f1f1f;
     height: 350px;
     color: white;
 }
 
 #allcards {
-    margin-top: -150px;
+    margin-top: -200px;
+    
 }
-
 .card-img-top {
     margin-left: 25px;
 }
