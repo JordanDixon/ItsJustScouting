@@ -1,0 +1,17 @@
+  .indicator {
+    position: fixed;
+    display: block;
+    background-color: #8EB950;
+    height: 5px;
+    top: 0;
+    z-index: 1000;
+  }
+  .marker {
+    width: 100%;
+    display: block;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+

@@ -1,0 +1,616 @@
+html{
+    overflow-x: hidden;
+}
+
+h1, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p {
+  font-family: 'Lato';
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+audio {
+    margin-top: -10px;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Its Just Scouting Hero*/
+/* this class will make 'image' responsive*/
+
+/*Hero Text */
+.IJS-graphic {
+  
+
+    width: 100%;
+}
+
+.IJS-graphic img{
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* SECTION 2 */
+.thesis-heading {
+    color: white;
+    display: block;
+    vertical-align: center;
+}
+
+#intro {
+	border-left: 2px solid #8EB950;
+}
+.thesis {
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+/*image*/
+.girls-silly {
+    width:  100%;
+    padding: 10px 10px 10px;
+}
+
+/*text*/
+.block {
+    color: white;
+    width: 80%;  
+}
+
+/*SECTION 2
+#thesis-heading {
+    color: white;
+    margin-left: 5%;
+    margin-top: 22%;
+    width: 75%;
+    font-weight: 600;
+}
+
+.thesis {
+    height: auto;
+    width: 100%;
+	/*margin-top: -820px;*/ /*only took this out bc it wonked out on mobile
+    background-image: linear-gradient(to bottom, rgba(31,31,31,.25), rgba(31,31,31,1));
+    z-index: 50;
+    position: relative;
+	background-attachment: fixed;
+}
+
+
+#girls-silly {
+    width:  100%;
+    height: auto;
+    padding: 10px 10px 10px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+
+.block {
+    color: white;
+    width: 75%;
+    font-weight: 100;
+    margin-left: 5.5%;
+    margin-top: 2%;
+} */
+
+/*SECTION #3*/
+
+.container {
+  position: relative; 
+}
+
+.container2 {
+  position: relative; 
+}
+
+.text-block {
+  background-color: rgba(31,31,31,.75);
+  top: 20%;
+  
+}
+
+.NN-text {
+    color: white;
+    opacity: 1;
+    width: 100%;
+}
+
+#row4 video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+/*SECTION 4*/
+.salutephoto {
+    height: 100vh;
+    width: 100vw;
+    background:url(../img/Rogers_Selects031.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	/*background-attachment: fixed;*/
+    position: absolute;
+}
+
+.NN-text {
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-block-2 {
+  background-color: rgba(31,31,31,.75);
+  margin-left: -70px;
+  margin-bottom: 1400px;
+  
+}
+
+/*SECTION 5*/
+#meetingvideo {
+    margin-left: 0%;
+    max-width: 100%;
+    height: auto;
+	background-attachment: fixed;
+	padding: 2%;
+}
+.cubscoutmeeting {
+    background-color: #1f1f1f;
+}
+
+.cubscoutmeeting iframe {
+   margin-left: 12%;
+}
+
+/*SECTION 6*/
+#meetingphoto1 {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.fullmeetingphoto {
+    height: 100vh;
+    position: relative;
+ 	background-attachment: fixed;
+}
+
+/*SECTION 7*/
+
+#greenborder1 {
+	border-left: 2px solid #8EB950;
+
+	
+}
+.attributionj {
+    color: black;
+    font-size: 16px;
+    margin-top: 0%;
+    margin-left: 5%;
+    font-style: italic;
+}
+
+#ms-heading {
+    color: white;
+    margin-left: 120%;
+    margin-top: -350px;
+    width: 70%;
+    font-weight: 500;
+}
+
+p#scoutstory {
+    color: white;
+    width: 500px;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.meetingstory {
+    margin-top: 87px;
+    position: relative;
+	background-attachment: fixed;
+}
+
+#adelequote{
+	color: white;
+	font-size: 32px;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-left: 25%;
+    width: 70%;
+}
+
+#adele-audio {
+   margin-left: 25%; 
+}
+
+#scoutmeetings {
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+
+#trees {
+    width: 70px;
+    height: 35px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 45%;
+}
+
+.attributiona {
+    color: white;
+    font-size: 16px;
+    margin-top: 0%;
+    margin-left: 30%;
+    font-style: italic;
+    border-left: 4px solid green;
+}
+
+
+/*SECTION 8*/
+h3#scoutrankings {
+    color: white;
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 50px;
+    width: 100%;
+}
+
+.badges {
+  height: 900px;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.transparent-gray-2 {
+    background-color: rgba(31, 31, 31, 0.3);
+    position: relative;
+    width: 100%;
+    height: 850px;
+}
+
+/*SECTION 9*/
+.infographic {
+    background-color: #1F1F1F;
+    height: 800px;
+    position: relative;
+	background-attachment: fixed;
+}
+
+.infographic h1 {
+    color: white;
+    margin-left: 33%;
+    margin-top: 25%;
+    position: relative;
+}
+
+/*SECTION 10*/
+.tonyintro {
+  background: url(../img/rogers_selects_038-1.jpg);
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#durmnbox {
+    border: 1px solid white;
+    width: 600px;
+    height: auto;
+    margin-left: 0;
+    overflow: hidden;
+    margin-top: 70%;
+    background-color: rgba(31,31,31,.75);
+}
+
+#durmnbox p {
+    color: white;
+    padding: 5%;
+    width: 100%;
+    margin-top: 0%;
+}
+
+#tonyphoto {
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin-top: 20%;
+}
+
+.pq-tony {
+    margin-left: 15%;
+    color: white;
+    width: 600px;
+    font-size: 32px;
+    margin-top: 15%;
+    background-color: black;
+}
+
+#attributiont {
+    color: white;
+    font-size: 16px;
+    margin-top: -30px;
+    margin-left: 45%;
+    font-style: italic;
+    border-left: 4px solid green;
+}
+
+#tonyvideo {
+    height: 800px;
+    position: relative;
+    margin-top: 0px;
+    padding: 2%;
+}
+
+/*COLOR GUARD*/
+.colorguard {
+ height: 100vh;  
+ background-color: #1F1F1F;
+}
+
+#row15 img {
+    width: 100%;
+    height: auto;
+    padding-right: 50px;
+}
+
+#row15 p {
+    color: white;
+    width: 65%;
+    margin-left: 10%;
+	margin-top: 10%;
+}
+
+/*SECTION 11*/
+.section11class {
+    height: 100%;
+    background: url(../assets/ltgreybg-01.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3#why-BSA {
+    color: black;
+    margin-left: 17%;
+    margin-top: 17%;
+    width: 60%;
+}
+
+p.why-BSA{
+    color: black;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.pq-jamie{
+    margin-left: 10%;
+    margin-top: 33%;
+    color: black;
+    width: 600px;
+    font-size: 32px;
+}
+
+#part1 {
+    
+}
+
+#part2 {
+    margin-top: 0%;
+}
+
+#part3 {
+    margin-top: 0%;
+}
+
+img.tagalong {
+    width: 70%;
+    height: auto;
+    margin-top: 5%;
+    border: 10px solid white;
+}
+
+/*SECTION 12*/
+#campgallery{
+    margin-top: 0px;
+	background-attachment: fixed;
+}
+.carousel-indicators li {
+    width: 18px; 
+    height: 18px;
+    border-radius: 40%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 32px;
+        height: 32px;
+}
+.carousel-inner{
+    overflow: hidden;
+}
+
+.captions {
+    
+}
+
+/*SECTION 13*/
+.sevenranges {
+  background-color: #1F1F1F;
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 33%;
+}
+
+img.scanned1 {
+  width: 20%;
+  height: auto;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+
+img.scanned2 {
+  width: 20%;
+  height: auto;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+
+p#sevenranges {
+    width: 450px;
+    color: white;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+/*HENRY SECTION*/
+
+#row18 img {
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 25%;
+}
+
+#row18 p {
+    width: 40%;
+    color: white;
+    margin-left: 30%;
+     margin-top: 3%;
+}
+
+.pq-henry{
+    margin-left: 30%;
+    margin-top: 5%;
+    color: white;
+    width: 600px;
+    font-size: 32px;
+}
+
+.attributionh {
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+#henry-audio {
+    margin-top: 0px;
+    margin-left: 0%;
+    padding: 10px;
+}
+
+#henryquote{
+	color: white;
+	font-size: 32px;
+}
+
+#greenborder2 {
+  border-left: 2px solid #8EB950;
+  
+}
+
+/*SECTION 14*/
+
+.jamievideo {
+    background-color: #1F1F1F;
+    height: 100vh;
+}
+
+.jamievideo iframe {
+    margin-left: 12%;
+    position: relative;
+}
+
+
+/*SECTION 19*/
+.windowphoto {
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/rogers_family002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    position: absolute;
+}
+
+/*FAMGALLERY*/
+#familygallery {
+background-color: #1F1F1F;
+}
+
+#demo {
+    width: 75%;
+    padding: 5%;
+    margin-left: 12%;
+}
+
+/*ALL DROP CAPS*/
+p.drop-cap {
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+
+
+
+/* OPPOSITION 
+#opposition-header {
+    color: white;
+    margin-left: 20%;
+    margin-top: 0%;
+    width: 60%;  
+}
+
+p#opposition{
+    color: white;
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.archive {
+   width: 50%;
+   height; 50%;
+   margin-left: 20%;
+    
+}*/
