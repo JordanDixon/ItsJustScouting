@@ -63,20 +63,24 @@ body {
     position: relative;
 }
 
-#row4 video {
-    position: relative;
+#row4 iframe {
+    position: absolute;
     width: 100vw;
     height: 100vh;
+}
+
+#row4 p {
+    z-index: 10;
 }
 
 /* ---------- ROW 5 -------- */
 #row5 {
+    background-color: #1F1F1F;
     height: 100vh;
     width: 100vw;
-     background-attachment: fixed;
 }
 
-#row5text {
+#row5-2 {
     height: 100vh;
     width: 100vw; 
 }
@@ -88,7 +92,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     z-index: 0;
     position: absolute;
 }
@@ -117,43 +121,36 @@ body {
 #row8bg {
     position: relative;
     z-index: 100;
-    background: none;
-	background-color: rgba(31,31,31,.75);
-	opacity: 1;
+	background-color: #1F1F1F;
+	opacity: .95;
 	height: 100vh;
     width: 100vw; 
 }
 
 /* ---------- ROW 9 ----*/
 #row9 {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
-    background-image: url(../img/rogers_selects_037.jpg);
-	background-repeat: no-repeat;
 }
 #row9bg {
     position: relative;
     z-index: 100;
-	height: 100vh;
+	height: 100%;
     width: 100vw;
-    overflow: hidden;
+    background-image: url(../img/rogers_selects_037_fade.jpg);
+	background-repeat: no-repeat;
 }
 
 #rankingtext {
     margin-left: 20%;
-    background-color: rgba(0,0,0,0.5);
-    padding: 3%;
+    background-color: rgba(0,0,0,0.75);
 }
 
-/*--------INFOGRAPHIC----*/
-
-div#infographic {
-    height: 300vh;
+#row9-2 {
+    height: 800px;
     width: 100vw;
     background-color: #1F1F1F;
-    position: relative;
-   
 }
 
 /* ---------- ROW 10 ----*/
@@ -161,9 +158,8 @@ div#infographic {
     height: 100vh;
     width: 100vw;
     position: relative;
-	margin-top: 0px;
+	margin-top: -130px;
 	background-color: #D6D6D6;
-    overflow: hidden;
 }
 
 .tagalongtext {
@@ -178,7 +174,6 @@ div#infographic {
     width: 100vw;
     position: relative;
 	background-color: #D6D6D6;
-    overflow: hidden;
 }
 
 /* ---------- ROW 12 ----*/
@@ -187,7 +182,6 @@ div#infographic {
     width: 100vw;
     position: relative;
 	background-color: #D6D6D6;
-    overflow: hidden;
 }
 
 /* ---------- ROW 13 ----*/
@@ -195,15 +189,16 @@ div#infographic {
   background: url(../img/rogers_selects_038-1.jpg);
   height: 100vh;
   width: 100vw;
+  background-attachment: fixed;
   background-size: cover;
 }
 
 /* ---------- ROW 14 ----*/
 #row14 {
-    height: 100vh;
+	height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #1F1F1F;
+	background-color: #1F1F1F;
 }
 
 /* ---------- ROW 15 ----*/
@@ -247,6 +242,7 @@ div#infographic {
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
+    padding
 }
 
 
@@ -286,6 +282,11 @@ div#infographic {
     color: white;  
 }
 
+.lawsuit{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* ---------- ROW 23 ----*/
 #row23 {
     height: 100vh;
@@ -296,6 +297,8 @@ div#infographic {
     padding: 5%;
 }
 
+
+}
 
 .table{
     color: white;
@@ -310,7 +313,7 @@ div#infographic {
     .vertical-center {
         flex-direction: column;
     }
-    
+
     #intro {
     top: 10%;
     z-index: 200;
@@ -320,20 +323,21 @@ div#infographic {
 
 
 
-
-  
   }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+.IJS-graphic img{
+  margin-top: 6%;
+}
+
+
+
 
   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
+ 
 
-.IJS-graphic {
-    display: col-lg-12
-    
-}
