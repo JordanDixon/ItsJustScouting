@@ -137,6 +137,7 @@ body {
     z-index: 100;
 	height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 #rankingtext {
@@ -145,10 +146,14 @@ body {
     padding: 3%;
 }
 
-#row9-2 {
-    height: 800px;
+/*--------INFOGRAPHIC----*/
+
+div#infographic {
+    height: 300vh;
     width: 100vw;
     background-color: #1F1F1F;
+    position: relative;
+   
 }
 
 /* ---------- ROW 10 ----*/
@@ -156,8 +161,9 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-	margin-top: -130px;
+	margin-top: 0px;
 	background-color: #D6D6D6;
+    overflow: hidden;
 }
 
 .tagalongtext {
@@ -172,6 +178,7 @@ body {
     width: 100vw;
     position: relative;
 	background-color: #D6D6D6;
+    overflow: hidden;
 }
 
 /* ---------- ROW 12 ----*/
@@ -180,6 +187,7 @@ body {
     width: 100vw;
     position: relative;
 	background-color: #D6D6D6;
+    overflow: hidden;
 }
 
 /* ---------- ROW 13 ----*/
@@ -187,16 +195,15 @@ body {
   background: url(../img/rogers_selects_038-1.jpg);
   height: 100vh;
   width: 100vw;
-  background-attachment: fixed;
   background-size: cover;
 }
 
 /* ---------- ROW 14 ----*/
 #row14 {
-	height: 100vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
-	background-color: #1F1F1F;
+    background-color: #1F1F1F;
 }
 
 /* ---------- ROW 15 ----*/
@@ -240,7 +247,6 @@ body {
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
-    padding
 }
 
 
@@ -280,11 +286,6 @@ body {
     color: white;  
 }
 
-.lawsuit{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
 /* ---------- ROW 23 ----*/
 #row23 {
     height: 100vh;
@@ -295,8 +296,6 @@ body {
     padding: 5%;
 }
 
-
-}
 
 .table{
     color: white;
