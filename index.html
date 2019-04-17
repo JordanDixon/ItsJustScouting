@@ -15,9 +15,11 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/pinstyle.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/flipbadge.css">
     <link rel="stylesheet" href="css/progress.css">
-      
+    <link rel="stylesheet" href="css/audioplayer.css">
+    <link rel="stylesheet" href="css/scrolldown.css">
 
     <title>It's Just Scouting</title>
   </head>
@@ -33,12 +35,16 @@
 <div row id="row1" class="vertical-center">
   <div id="row1bg"></div>
   <div class=" IJS-graphic d-flex justify-content-center align-items-center">
-    <div class="col-lg-12 col-xs-12 col-sm-6 IJS-graphic">
+    <div class="col-lg-12 col-xs-12 col-md-6 IJS-graphic">
       <img src="assets/its-just-scouting.png" alt= "its just scouting title">
     </div>
   </div><!-- close row1-inside -->
+  <section id="section05" class="scrollarrow">
+  		<a href="#row3"><span></span></a>
+	</section>
 </div><!-- close row1-->
 
+  	
 
 <div row id="row2" class="vertical-center trigger pinned-cont">
 </div><!-- close row2--> 
@@ -46,23 +52,20 @@
     
 <div row id="row3" class="vertical-center d-flex justify-content-center">
   <div class="col-md-6">
-    <img id="girls-silly" alt="mavery and adele making a funny face" src="img/Rogers_Selects017.jpg">
+    <img id="girls-silly" alt="mavery and adele making a funny face" class="img-fluid" src="https://github.com/JordanDixon/ItsJustScouting/blob/master/img/Rogers_Selects017.jpg?raw=true">
   </div>
   
   <div class="col-md-6" id="intro">
     <h3 class="thesis-heading"> Twins Mavery and Adele were the first two girls to join Cub Scouts in Marietta, Ohio. </h3>   
-      <p class="thesisblock"> Although Mavery and Adele were the first girls to join Cub Scouts Pack 207 of Marrieta, Ohio, to them it was as simple as making them official participants of a club they had been around for all their lives.</p>
+      <p class="block"> Although Mavery and Adele were the first girls to join Cub Scouts Pack 207 of Marrieta, Ohio, to them it was as simple as making them official participants of a club they had been around for all their lives.</p>
   </div>  
 </div><!-- close row3--> 
 
     
 <div row id="row4" class="vertical-center trigger2">
-    <section class="hikingvid"> <video muted autoplay loop> <source src="assets/final_walking.mp4"></video></section>
-    </div>
-    
-<div row id="row4text">
+        <video muted autoplay loop> <source src="assets/final_walking.mp4"></video>
         <div class="container">  
-            <div class="text-block-2a col-md-6">
+            <div class="text-block col-md-6">
                   <p class="NN-text">Boy Scouts of America has made the decision to officially allow girls to join the Cub Scout program in a new recruitment effort called, "Scout Me In."
                   <br><br>
                   Cub Scouts is a family-based program for elementary school age children. Each grade level has a rank and is associated with an animal or symbol for fourth and fifth graders. The Ranks meet by dens during the meetings, which are split by gender, coming together for activities and events.
@@ -77,7 +80,7 @@
   </section>
 </div><!-- close row5--> 
 
-<div row id="row5text" class="vertical-center">
+<div row id="row5-2" class="vertical-center">
     <div class="container">
       <div class="row">
         <div class="text-block-2 col-md-6">
@@ -95,52 +98,53 @@
       </div><!-- close row6--> 
 
 
-<div row id="row7" class="vertical-center d-flex justify-content-center trigger4">
+<div row id="row7" class="vertical-center d-flex justify-content-center">
   <section class="carvingphoto"> 
   </section>
 </div><!-- close row7--> 
 
-<!-- close row8--> 
-    
-<div id="row8bg">
+
+<div row id="row8" class="vertical-center d-flex justify-content-center">
+  <section class="carvingphoto"> 
+   <div id="row8bg">
     <div class="col-md-12">
       <h3 id="adelequote"> My favorite thing is, since 
         I have a whittling chip, is carving with my knife.”</h3>   
       <p class="block vertical-center d-flex justify-content-center"> - Adele McCombs</p>
     </div> 
      
-    <div class="col-sm-8 container">
-      <audio id="adele-audio" controls src="audio/adele_favthing.mp3">
-      Your browser does not support the audio element.</audio>
-     </div>
+    <div id="playerContainer"></div>
+
        <img id="trees" src="img/trees.png">
        <p class="block" id="scoutmeetings">
-           <strong>EVERY FIRST AND THIRD</strong> Thursday of the month Mavery and Adele run into the American Legion that is filled to the brim with blue and khaki-clad Cub Scouts.
+       EVERY FIRST AND THIRD Thursday of the month Mavery and Adele run into the American Legion that is filled to the brim with blue and khaki-clad Cub Scouts.
            <br>
         They are warmly greeted by a smiling Tony Durm, the Committee Chairman for the Pack, Troop, and Venture Crew. “My favorite thing is hiking with Tony,” said Mavery, “He tells us so much information.”
            <br><br>
         Every meeting begins with the pledge and scout oath. They break off into dens for activities. “It was kinda awkward, but it wasn’t that bad because a lot of my friends from school were there,” said Adele. The girls are currently Webelos, which is the den for the fourth and fifth graders. 
+
+       
+       
        </p>
-        
 	</div>
+ </section>
+	   
+</div><!-- close row8--> 
 
 
-<div row id="row9" class="vertical-center d-flex justify-content-center trigger5">
-</div><!-- close row9-->
-    
- <div id="row9bg">
+<div row id="row9" class="vertical-center d-flex justify-content-center">
+     <div id="row9bg">
 			 <div class="row">
           <div class="col-md-6">
             <h3 id="scoutrankings">Cub Scout Rankings</h3> 
               
-              <p class="block" id="rankingtext"><strong>Cub Scouts is divided into rankings. These rankings are determined by elementary grade level. Mavery and Adele are Webelos, the last ranking before they are allowed to join Boy Scouts next year.</strong></p>
+              <p class="block" id="rankingtext">Cub Scouts is divided into rankings. These rankings are determined by elementary grade level. Mavery and Adele are Webelos, the last ranking before they are allowed to join Boy Scouts next year.</p>
           </div>
         
         <!--Badge 1-->
-          <div class="container">
+          <div class="container" id="allcards">
             <div class="row">
-              
-                <div class="col-sm-6" id="allcards">
+                <div class="col-sm-6">
                     <!-- Card Flip -->
                     <div class="card-flip" id="bobcat">
                         <div class="flip">
@@ -260,45 +264,22 @@
      </div>
 			
         </div>
+</div><!-- close row9--> 
     
-<div row id="infographic" class="vertical-center d-flex justify-content-center"> 
-    <div class="col-lg-12 col-xs-4">
-   <img id="graphic" src="img/BSAEnrollment.jpg"> 
-    <p id="ig">Infographic detailing the steady decline in Boy Scouts enrollment from 2012 to 2017.</p>
-       <br>
-        <h3 id="lawsuit-heading">History</h3>
-        <p class="lawsuit">The overall scouting movement started over 108 years ago, in 1910; the program was to engage in values set by the Boy Scouts of America. “Scouting is a values-based program with its code of conduct. The Scout Oath and Law help instill the values of good conduct, respect for others, and honesty. Scouts learn skills that will last a lifetime, including basic outdoor skills, first aid, citizenship skills, leadership skills, and how to get along with others.” 
-        <br><br> 
-        Two years later Girl Scouts, GSUSA, began in 1912 with the vision and direction of Juliette Gordon Low. Low wanted an organization that gave girls courage, confidence and built character so that girls would prepare for the world. According to the GSUSA website, “Juliette, affectionately known as “Daisy” by her family and close friends, gathered 18 girls in her hometown of Savannah, Georgia. So she could share what she had learned abroad about a new outdoor and educational program for youth, and with this, the Girl Scout Movement was born. Along with Juliette, these first Girl Scouts blazed trails and redefined what was possible for themselves and girls everywhere.”
-             <br><br> 
-        Recent years membership has been declining in youth scouting organizations, which some claim is the push for change in Boy Scouts of America. However, the organization has been making more progressive strides in the past recent years. In 2015 BSA lifted the ban on openly gay scout leaders and had open membership for transgender youth, accepting the gender on application form instead of the birth certificate. 
-        </p>     
-       
-       <br><br>  
-        
-     <h3 id="lawsuit-heading">The Lawsuit</h3> 
-      <br>
-      <p class="lawsuit">GSUSA released a statement, and while not actually mention Scouts of BSA, they wrote, “We believe strongly in the importance of the all-girl, girl-led, and girl-friendly environment that Girl Scouts provides, which creates a free space for girls to learn and thrive. The benefit of the single-gender environment has been well-documented by educators, scholars, other girl- and youth-serving organizations.”
-      <br><br>
-      The new transition for Boy Scouts of America means a new name. They plan on dropping the word boy from the title, a move to welcome girls, and go by Scouts BSA. The name change sparked concern from GSUSA. So much that they filed a federal trademark lawsuit in U.S. District Court for the Southern District of New York claiming that Scouts BSA will “marginalize” and damage GSUSA.  Boy Scouts has two programs, one is Scouts BSA, which is for boys and girls 11-17. The other is the new Cub Scout campaign called “Scout Me In,” which promotes family scouting and involvement. According to NPR, “It’s the generic use of “Scouts,” without a gender marker, that the Girl Scouts 
-      object to.” 
-      <br><br>
-      The argument over the generic use of Scouts has long been an argument, dating back to the creation of Girl Scouts. “Khaki uniforms and adoption of military drills” was found threatening by Boy Scout leaders during that time. As they felt other youth organizations like the Camp Fire Girls were more gender appropriate,” Leslie Paris writes in her book Children’s Nature: The Rise of the American Summer Camp, “James West, BSA leader from 1911 to 1943, rallied particularly against the Girl Scouts’ use of the term ‘scout,’ fearing that if the term became feminized, it would become unsuitable for boys’ adventure.”
-  </p>
-    </div>
-    
-    
+<div row id="row9-2" class="vertical-center d-flex justify-content-center"> 
+   <img id="infographic" src="img/BSAEnrollment.jpg"> 
+    <p class="captions">Infographic detailing the steady decline in Boy Scouts enrollment from 2012 to 2017.</p>
 </div>   
 
-<!--tagalong part 1-->
-<div row id="row10" class="vertical-center d-flex justify-content-center trigger6">
+
+<div row id="row10" class="vertical-center d-flex justify-content-center">
 
       <div class="col-md-4">
-        <img class="tagalong" alt="adele and mavery as young tagalongs" src="img/tagalong1.jpg">
+        <img class="tagalong" alt="mavery and adele in the a.m." src="img/tagalong1.jpg">
       </div>
   <br class="mobile-break">
 	  <div class="col-md-4">   
-		  <p class="tagalongtext"><strong>AS YOUNG </strong> as four-years old girls, Mavery and Adele were at the family campouts. They tagged along 
+		  <p class="tagalongtext">AS YOUNG as four-years old girls, Mavery and Adele were at the family campouts. They tagged along 
 	hikes and other actives. 
 
 	“Both Tony and Rogers were super accommodating. They would let the girls do the crafts with them. They’d let them come along to stuff. But still, you know, when they sat down to do their memorization stuff, neighboring down were like, well why can’t we need that? So they, they realize that they weren’t part of it and they didn’t like that it was only for boys,” 
@@ -308,32 +289,31 @@
 	  </div> 
 </div><!-- close row10--> 
 
-<!--tagalong part 2-->    
-<div row id="row11" class="vertical-center d-flex justify-content-center trigger7">
+
+
+<div row id="row11" class="vertical-center d-flex justify-content-center">
  
 	  <div class="col-md-4">
-		<img class="tagalong" alt="adele and mavery as young tagalongs" src="img/tagalong2.jpg">
+		<img class="tagalong" alt="mavery and adele in the a.m." src="img/tagalong2.jpg">
 	  </div>
 	  <br class="mobile-break">
 	  <div class="col-md-4"> 
 	  
-    <div id="greenborder1"> <h3 id="pq-jamie">"They were little troopers, carrying their own backpacks and loved it and they wanted to do it themselves.”</h3>
-		
+    <h3 class="thesis-heading pq-jamie">"They were little troopers, carrying their own backpacks and loved it and they wanted to do it themselves.”</h3>
+		 <div id="greenborder1">
 		  <p class="block attributionj"> - Jamie McCombs</p> 
-			<audio id="jamie-audio" controls src="audio/finaljamie.mp3">
-			Your browser does not support the audio element.</audio>
+
+			 <div id="playerContainer2"></div>
 		 </div>
 		  
 	  </div> 
 
 </div><!-- close row11--> 
-    
-<!--tagalong part 3-->
-    
-<div row id="row12" class="vertical-center d-flex justify-content-center trigger8">
+
+<div row id="row12" class="vertical-center d-flex justify-content-center">
 
   <div class="col-md-4">
-    <img class="tagalong" alt="adele and mavery as young tagalongs" src="img/tagalong3.jpg">
+    <img class="tagalong" alt="mavery and adele in the a.m." src="img/tagalong3.jpg">
   </div>
   <br class="mobile-break">
   <div class="col-md-4">   
@@ -343,11 +323,9 @@
        <br><br>
 	“I mean I don’t want to sell cookies,” Adele exclaims.</p>
   </div> 
-</div>
-    
-<!-- close row12-->
+</div><!-- close row12-->
 	
-<div row id="row13" class="vertical-center d-flex justify-content-center trigger9">
+<div row id="row13" class="vertical-center d-flex justify-content-center">
  <section>
     <div class="row">
       <div class="col-md-6">
@@ -356,18 +334,18 @@
 			</audio>
         </div>
       </div>
-</section> 
- </div>
+      
+        <div class="row" id="durmnbox">
+          <div class="col-md-12">
+              <p>TONY DURM joined Cub Scouts in third grade and achieved his Eagle Scout rank before turning eighteen.<br><br>
+              Durmn met Jamie when her older son, Henry, who is currently on working towards his Eagle Scout, first joined in second grade as a Bear in 2014. “we met Tony and really Tony was the, he signed the deal. He was so passionate about troops,” said Jamie. </p>
+          </div>
+        </div>  
 
-    <div class="row" id="durmbox">
-      <div class="col-md-12">
-          <p><strong>TONY DURM</strong> joined Cub Scouts in third grade and achieved his Eagle Scout rank before turning eighteen.<br><br>
-          Durmn met Jamie when her older son, Henry, who is currently on working towards his Eagle Scout, first joined in second grade as a Bear in 2014. “we met Tony and really Tony was the, he signed the deal. He was so passionate about troops,” said Jamie. </p>
-      </div>
-    </div>  
- 
+      
+  </section>  
 	
-<!-- close row13-->
+</div><!-- close row13-->
 	
 <div row id="row14" class="vertical-center d-flex justify-content-center">	
 	<div class="row">
@@ -493,12 +471,11 @@
             
           <div id="row18a">
             <div class="col-md-6 mx-auto">
-              <h1 id="henryquote">"...I really can't wait to be an Eagle Scout, it's everyone's basic dream.”</h1>   
+              <h1 class="thesis-heading" id="henryquote">"...I really can't wait to be an Eagle Scout, it's everyone's basic dream.”</h1>   
                 <p class="block mx-auto"> - Henry McCombs</p>
             </div>
              <div class="vertical-center d-flex justify-content-center">
-              <audio id="#" controls src="audio/henry_Final.mp3">
-              Your browser does not support the audio element.</audio>
+              <div id="playerContainer3"></div>
             </div>
           </div>
 
@@ -514,7 +491,7 @@
 </div><!-- close row19-->
 
 <div row id="row20" class="vertical-center">
-  <section class="windowphoto img-fluid"> 
+  <section class="windowphoto"> 
   </section>
 </div><!-- close row20--> 
 
@@ -588,6 +565,13 @@
 </div><!--end row21-->
 
 <div id="row22" class="vertical-center d-flex justify-content-center">
+  <p class="lawsuit">GSUSA released a statement, and while not actually mention Scouts of BSA, they wrote, “We believe strongly in the importance of the all-girl, girl-led, and girl-friendly environment that Girl Scouts provides, which creates a free space for girls to learn and thrive. The benefit of the single-gender environment has been well-documented by educators, scholars, other girl- and youth-serving organizations.”
+
+  The new transition for Boy Scouts of America means a new name. They plan on dropping the word boy from the title, a move to welcome girls, and go by Scouts BSA. The name change sparked concern from GSUSA. So much that they filed a federal trademark lawsuit in U.S. District Court for the Southern District of New York claiming that Scouts BSA will “marginalize” and damage GSUSA.  Boy Scouts has two programs, one is Scouts BSA, which is for boys and girls 11-17. The other is the new Cub Scout campaign called “Scout Me In,” which promotes family scouting and involvement. According to NPR, “It’s the generic use of “Scouts,” without a gender marker, that the Girl Scouts 
+  object to.” 
+
+  The argument over the generic use of Scouts has long been an argument, dating back to the creation of Girl Scouts. “Khaki uniforms and adoption of military drills” was found threatening by Boy Scout leaders during that time. As they felt other youth organizations like the Camp Fire Girls were more gender appropriate,” Leslie Paris writes in her book Children’s Nature: The Rise of the American Summer Camp, “James West, BSA leader from 1911 to 1943, rallied particularly against the Girl Scouts’ use of the term ‘scout,’ fearing that if the term became feminized, it would become unsuitable for boys’ adventure.”
+  </p>
 </div>
 
 <div id="row23" class="vertical-center d-flex justify-content-center">
@@ -620,6 +604,12 @@
 
  </div>
 
+
+
+
+
+
+
     <!-- jQuery first, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -627,6 +617,8 @@
 
      <!-- Custom JS -->
     <script src="js/progress.js"></script>
+    <script src="js/audioplayer.js"></script>
+    <script src="js/scrolldown.js"></script>
     
     
     <!-- SCROLL MAGIC -->
@@ -676,7 +668,8 @@ $(function() {
                     triggerHook: "onLeave",
                     duration: "100%"
                 })
-                .setPin(".trigger2", {pushFollowers: false})
+                .setPin(".pinned-text", {pushFollowers: false})
+                //.setTween(slideBox)
                 .addIndicators()
                 .addTo(controller);
     
@@ -686,70 +679,9 @@ $(function() {
                     triggerHook: "onLeave",
                     duration: "100%"
                 })
-                .setPin(".trigger3", {pushFollowers: false})
+                .setPin(".pinned-box", {pushFollowers: false})
                 .addIndicators()
                 .addTo(controller);
-    
-    //SCENE 4
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger4",
-                    triggerHook: "onLeave",
-                    duration: "100%"
-                })
-                .setPin(".trigger4", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    //SCENE 5
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger5",
-                    triggerHook: "onLeave",
-                    duration: "120%"
-                })
-                .setPin(".trigger5", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    
-     //SCENE 6
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger6",
-                    triggerHook: "onLeave",
-                    duration: "100%"
-                })
-                .setPin(".trigger6", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    
-    //SCENE 7
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger7",
-                    triggerHook: "onLeave",
-                    duration: "100%"
-                })
-                .setPin(".trigger7", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    
-    //SCENE 8
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger8",
-                    triggerHook: "onLeave",
-                    duration: "100%"
-                })
-                .setPin(".trigger8", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    
-    //SCENE 9
-            new ScrollMagic.Scene({
-                    triggerElement: ".trigger9",
-                    triggerHook: "onLeave",
-                    duration: "120%"
-                })
-                .setPin(".trigger9", {pushFollowers: false})
-                .addIndicators()
-                .addTo(controller);
-    
-    
     
 });
         
