@@ -2,7 +2,7 @@ html{
     overflow-x: hidden;
 }
 
-h1, h3 {
+h1, h3, h4{
   font-family: 'Roboto Slab', serif;
 }
 
@@ -11,6 +11,7 @@ p {
   line-height: 1.8;
   font-size: 16px;
   font-weight: normal;
+  width: 480px;
 }
 
 video {
@@ -36,6 +37,7 @@ audio {
 /*Hero Text */
 .IJS-graphic {
     width: 100%;
+    margin-top: 6%;
 }
 
 .IJS-graphic img{
@@ -48,21 +50,22 @@ audio {
     color: white;
     display: block;
     vertical-align: center;
+    width: 500px;
 }
 
-#intro {
+#intro { 
 	border-left: 2px solid #8EB950;
+    margin-top: -150px;
 }
-.thesis {
-    width: 100%;
-    position: relative;
-    background-attachment: fixed;
+
+p.thesisblock {
+    color: white;
 }
 
 /*image*/
 .girls-silly {
     width:  100%;
-    padding: 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 /*text*/
@@ -71,26 +74,6 @@ audio {
     width: 80%;  
 }
 
-/*SECTION 2
-#thesis-heading {
-    color: white;
-    margin-left: 5%;
-    margin-top: 22%;
-    width: 75%;
-    font-weight: 600;
-}
-
-.thesis {
-    height: auto;
-    width: 100%;
-	/*margin-top: -820px;*/ /*only took this out bc it wonked out on mobile
-    background-image: linear-gradient(to bottom, rgba(31,31,31,.25), rgba(31,31,31,1));
-    z-index: 50;
-    position: relative;
-	background-attachment: fixed;
-}
-
-
 #girls-silly {
     width:  100%;
     height: auto;
@@ -98,16 +81,6 @@ audio {
     margin-top: 5%;
     margin-bottom: 20%;
 }
-
-
-.block {
-    color: white;
-    width: 75%;
-    font-weight: 100;
-    margin-left: 5.5%;
-    margin-top: 2%;
-} */
-
 /*SECTION #3*/
 
 .container {
@@ -118,16 +91,17 @@ audio {
   position: relative; 
 }
 
-.text-block {
-  background-color: rgba(31,31,31,.75);
-  top: 20%;
-  
-}
-
 .NN-text {
     color: white;
     opacity: 1;
     width: 100%;
+}
+
+.hikingvid {
+    height: 100vh;
+    width: 100vw;
+	/*background-attachment: fixed;*/
+    position: absolute;
 }
 
 #row4 video {
@@ -151,8 +125,6 @@ audio {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	/*background-attachment: fixed;*/
-    position: absolute;
 }
 
 .NN-text {
@@ -161,10 +133,10 @@ audio {
     padding: 20px;
 }
 
-.text-block-2 {
+.text-block-2a {
   background-color: rgba(31,31,31,.75);
   margin-left: -70px;
-  margin-bottom: 1400px;
+  margin-top: 0;
   
 }
 
@@ -185,22 +157,12 @@ audio {
 }
 
 /*SECTION 6*/
-#meetingphoto1 {
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
-
-.fullmeetingphoto {
-    height: 100vh;
-    position: relative;
- 	background-attachment: fixed;
-}
 
 /*SECTION 7*/
 
 #greenborder1 {
 	border-left: 2px solid #8EB950;
+    margin-left: 50px;
 
 	
 }
@@ -220,6 +182,7 @@ audio {
     font-weight: 500;
 }
 
+
 p#scoutstory {
     color: white;
     width: 500px;
@@ -238,18 +201,22 @@ p#scoutstory {
 	font-size: 32px;
     margin-top: 0;
     padding-top: 100px;
-    padding-left: 25%;
+    padding-left: 33%;
     width: 70%;
 }
 
 #adele-audio {
-   margin-left: 25%; 
+   margin-left: 45%; 
+   display: block;
+   margin-top: -53px;
 }
 
 #scoutmeetings {
-    width: 40%;
-    margin-left: 25%;
-    margin-top: 3%;
+    width: 70%;
+    padding-left:33%;
+    margin-top: 2%;
+    color: white;
+    overflow: scroll;
 }
 
 
@@ -257,8 +224,8 @@ p#scoutstory {
     width: 70px;
     height: 35px;
     margin-top: 3%;
-    margin-bottom: 1%;
-    margin-left: 45%;
+    margin-bottom: 0%;
+    margin-left: 47%;
 }
 
 .attributiona {
@@ -274,8 +241,8 @@ p#scoutstory {
 /*SECTION 8*/
 h3#scoutrankings {
     color: white;
-    margin-left: 20%;
-    margin-top: 15%;
+    margin-left: 33%;
+    margin-top: 5%;
     font-size: 50px;
     width: 100%;
 }
@@ -287,26 +254,48 @@ h3#scoutrankings {
   background-attachment: fixed;
 }
 
-.transparent-gray-2 {
-    background-color: rgba(31, 31, 31, 0.3);
-    position: relative;
-    width: 100%;
-    height: 850px;
+#rankingtext {
+    margin-left: 20%;
+    background-color: rgba(31,31,31,0.75);
+    padding: 1%;
+    width: 1000px;
 }
 
 /*SECTION 9*/
-.infographic {
-    background-color: #1F1F1F;
-    height: 800px;
-    position: relative;
-	background-attachment: fixed;
+
+#lawsuit-heading {
+    color: white;
+    width: 100%;
+    margin-left: 43%;
 }
 
-.infographic h1 {
-    color: white;
-    margin-left: 33%;
-    margin-top: 25%;
-    position: relative;
+.archive {
+ width: 65%;
+ margin-left: 15%;
+    
+}
+
+img#graphic {
+    margin-top: -100px;
+    margin-left: 27%;
+    width: 45%;
+    height: auto;
+    position: relative; 
+}
+
+#ig {
+    margin-top: 1%;
+    color: lightgray;
+    font-size: 12px;
+    margin-left: 450px;
+    
+}
+
+.lawsuit {
+    margin-left: 30%;
+    padding: 0%;
+    width: 40%;
+    color:  white;
 }
 
 /*SECTION 10*/
@@ -317,20 +306,18 @@ h3#scoutrankings {
   background-size: cover;
 }
 
-#durmnbox {
+#durmbox {
     border: 1px solid white;
     width: 600px;
     height: auto;
     margin-left: 0;
-    overflow: hidden;
     margin-top: 70%;
     background-color: rgba(31,31,31,.75);
 }
 
-#durmnbox p {
+#durmbox p {
     color: white;
     padding: 5%;
-    width: 100%;
     margin-top: 0%;
 }
 
@@ -380,7 +367,6 @@ h3#scoutrankings {
 
 #row15 p {
     color: white;
-    width: 65%;
     margin-left: 10%;
 	margin-top: 10%;
 }
@@ -407,37 +393,35 @@ p.why-BSA{
     width: 60%;
 }
 
-.pq-jamie{
-    margin-left: 10%;
+#pq-jamie{
+    margin-left: 4%;
     margin-top: 33%;
     color: black;
     width: 600px;
     font-size: 32px;
 }
 
-#part1 {
-    
-}
+#jamie-audio {
+    margin-top: -50px;
+    margin-left: 170px;
+    display: block;
+} 
 
-#part2 {
-    margin-top: 0%;
-}
-
-#part3 {
-    margin-top: 0%;
+.tagalongtext {
+	width: 600px;
+	color: black;
 }
 
 img.tagalong {
-    width: 70%;
+    width: 90%;
     height: auto;
     margin-top: 5%;
     border: 10px solid white;
 }
 
-/*SECTION 12*/
-#campgallery{
-    margin-top: 0px;
-	background-attachment: fixed;
+/*FAMILY PICS*/
+.gallery {
+    margin-top: 100px;
 }
 .carousel-indicators li {
     width: 18px; 
@@ -453,16 +437,17 @@ img.tagalong {
     overflow: hidden;
 }
 
-.captions {
-    
+#familygallery, #campkootaga {
+  padding: 10%;
 }
+
 
 /*SECTION 13*/
 .sevenranges {
   background-color: #1F1F1F;
   height: 100vh;
   width: 100vw;
-  padding-bottom: 33%;
+  padding-bottom:0%;
 }
 
 img.scanned1 {
@@ -495,7 +480,6 @@ p#sevenranges {
 }
 
 #row18 p {
-    width: 40%;
     color: white;
     margin-left: 30%;
      margin-top: 3%;
@@ -542,31 +526,6 @@ p#sevenranges {
 .jamievideo iframe {
     margin-left: 12%;
     position: relative;
-}
-
-
-/*SECTION 19*/
-.windowphoto {
-    height: 100vh;
-    width: 100vw;
-    background: url(../img/rogers_family002.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    position: absolute;
-}
-
-/*FAMGALLERY*/
-#familygallery {
-background-color: #1F1F1F;
-}
-
-#demo {
-    width: 75%;
-    padding: 5%;
-    margin-left: 12%;
 }
 
 /*ALL DROP CAPS*/
