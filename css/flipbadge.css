@@ -1,10 +1,5 @@
 /*Flip Badge CSS*/
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
 .card-flip {
   perspective: 1000px;
 }
@@ -64,31 +59,31 @@
 #bobcat {
     margin-top: 0%;
     margin-left: 0%;
-    width: 120%;
+    width: 100%;
 }
 
 #tiger {
     margin-top: 0px;
     margin-left: 30%;
-    width: 120%;
+    width: 100%;
 }
 
 #wolf {
     margin-top: 0px;
     margin-left: 60%;
-    width: 120%;
+    width: 100%;
 }
 
 #bear {
     margin-top: 0px;
     margin-left: 90%;
-    width: 120%;  
+    width: 100%;  
 }
 
 #webelo {
     margin-top: 0px;
     margin-left: 120%;
-    width: 120%;
+    width: 100%;
 }
 
 /*End Badge Section*/
