@@ -1,7 +1,10 @@
+* { 
+  box-sizing: border-box;
+}
+
 body {
     width: 100%;
 }
-
 
 
 .vertical-center {
@@ -31,13 +34,12 @@ body {
     overflow: hidden;
     background-image: url(../img/Rogers_Selects022crop.jpg);
     position: fixed;
-    z-index: -100;
-    
+    z-index: -100;  
 }
 
 /* ---------- ROW 2 ----*/
 #row2 {
-    background-color: black;
+    background-color: #000000;
     opacity: .8;
     height: 100vh;
     width: 100vw;
@@ -59,31 +61,44 @@ body {
 }
 /* ---------- ROW 4 -------- */
 #row4 {
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     position: relative;
     z-index: 0;
 }
 
-#row4text {
-    position: relative;
-    z-index: 100;
-    margin-top: -320px;
-}
-
-#row4 video {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
-/* ---------- ROW 6 ----*/
-#row6 {
-    height: 100vh;
+#row4a {
+    height: 75vh;
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
 
+}
+
+#row4a p {
+    color: #FFFFFF;
+}
+
+#row4text {
+    position: relative;
+    z-index: 100;
+    margin-top: 0px;
+}
+
+/* ---------- ROW 6 ----*/
+#row6 {
+    height: 120vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+    position: relative;
+
+}
+
+#row6a {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+    position: relative;
 }
 
 
@@ -91,41 +106,44 @@ body {
 #row7 {
     height: 100vh;
     width: 100vw;
-    background: url(../img/Rogers_Selects032.jpg);
+    background: url('../img/Rogers_Selects032.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    position: absolute;
+    background-size: 100% !important;
+    background-position: center top !important;
+    padding: 1rem;
+    padding-top: 0%;
+    color: #fff;
 }
 
 /* ---------- ROW 8 ----*/
 
 #row8bg {
-    height: 100vh;
-    width: 100vw; 
+    height: 120vh;
+    width: 100vw;
+    background-color: rgba(31,31,31,0.75);
     position: relative;
-    z-index: 100;
-	background-color: rgba(31,31,31,.75);
-	opacity: 1;
-	
 }
 
+#mcfamily {
+    color: white;
+    margin-left: 33%;
+    margin-top: 5%;
+}
 /* ---------- ROW 9 ----*/
 #row9 {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
 }
+
 /*--------INFOGRAPHIC----*/
 
-div#history{
-    height: 410vh;
+div#history {
+    height: 200vh;
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
-    padding-top: 0%;
    
 }
 
@@ -142,7 +160,7 @@ div#history{
 #row10 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 }
 
 /* ---------- ROW 11 ----*/
@@ -150,14 +168,14 @@ div#history{
 #row11 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 }
 
 /* ---------- ROW 12 ----*/
 #row12 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 
 }
 
@@ -184,15 +202,17 @@ div#history{
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
-    padding-bottom: 0;
+    padding-bottom: 25%;
 }
 
 /* ---------- ROW 17 ----*/
 #row17 {
-	height: 100vh;
+	height: 120vh;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
+    padding-bottom: 40%;
+    padding-top: 30%;
 }
 
 /* ---------- ROW 19 ----*/
@@ -266,31 +286,177 @@ div#history{
     margin-top: -130px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (portrait tablets and large phones, 576px and up) */
+
+@media only screen and (min-width: 576px) {
     .vertical-center {
         flex-direction: column;
     }
     
     #intro {
-    top: 10%;
+    margin-top: 0%;
     z-index: 200;
-    top: 27%;
+    }
+    
+    .IJS-graphic {
+    width: 100%;        
+  }
+    
+    #girls-silly {
+        width: 100%;
+        height: auto;
+    }
+}
+    
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+
+@media only screen and (min-width: 576px) {
+    .vertical-center {
+        flex-direction: column;
+    }
+    
+    #intro {
+    top: -100px;
+    z-index: 200;
+}
+    
+     .IJS-graphic {
+    width: 100%;
+    margin-top: 25%;
+         
+}
+  #girls-silly {
+        width: 10%;
+    }
+    
+     #row4text {
+        width: 150%;
+        margin-top: -500px;
+         
+    }
+    
+    #row6 iframe {
+        width: 90%;
+    } 
+    
+    #row9 {
+        height: 500vh;
+    }
+    
+    #bobcat {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 50%;
 }
 
+#tiger {
+    margin-left: 0%;
+}
+
+#wolf {
+    margin-left: 0%;
+}
+
+#bear {
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 50%;  
+}
+
+#webelo {
+    margin-top: 0px;
+    margin-left: 0%;
+    width: 50%;
+}
   
   }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
+    .vertical-center {
+        flex-direction: column;
+    }
+    
+
+.IJS-graphic {
+    width: 100%;
+    margin-top: 28%;
+}
+    
+    #intro {
+    top: 10px;
+    z-index: 200;
+    left: -25px;
+}
+  
+    #girls-silly {
+        width: 150%;
+        margin-left: -60px;
+    }
+    
+    #row4text {
+        width: 150%;
+        margin-top: -500px;
+    }
+    
+    
+    #row6 iframe {
+        width: 90%;
+    } 
   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 992px) {
 
 .IJS-graphic {
-    display: col-lg-12
+   width: 100%;
+    margin-top: 20%;
     
 }
+    
+    
+#intro {
+    top: 20%;
+    z-index: 200;
+    display: block;
+}
+    
+#girls-silly {
+        width: 130%;
+        margin-left: -80px;
+    }
+    
+.text-block-2a {
+  margin-left: -70px;  
+}
+
+    #row6 iframe {
+        width: 80%;
+    }  
+}
+     
+/* X-Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+
+.IJS-graphic {
+    width: 100%;
+    margin-top: 20%;
+    
+}
+    
+  #intro {
+    top: 29%;
+    z-index: 200;
+    display: block;
+}
+    
+    .text-block-2a {
+  margin-left: -70px;  
+}
+
+}
+  

@@ -1,9 +1,19 @@
-html{
+html {
     overflow-x: hidden;
 }
 
-h1, h3, h4{
+h1, h2, h3, h4{
   font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  color: white;
+  padding: 0px;
+  width: 60%;
+  font-size: 24px;
+  line-height: 1.8;
+  font-family: 'Lato', serif;
+  
 }
 
 p {
@@ -12,6 +22,12 @@ p {
   font-size: 16px;
   font-weight: normal;
   width: 480px;
+}
+
+#videoheading {
+    color: white;
+    margin-left: 10%;
+    margin-top: 7%;
 }
 
 video {
@@ -35,10 +51,6 @@ audio {
 /* this class will make 'image' responsive*/
 
 /*Hero Text */
-.IJS-graphic {
-    width: 100%;
-    margin-top: 6%;
-}
 
 .IJS-graphic img{
   width: 60%;
@@ -55,23 +67,11 @@ audio {
 
 #intro { 
 	border-left: 2px solid #8EB950;
-    margin-top: -150px;
+    display: block;
 }
 
 p.thesisblock {
     color: white;
-}
-
-/*image*/
-.girls-silly {
-    width:  100%;
-    padding: 20px 20px 20px 20px;
-}
-
-/*text*/
-.block {
-    color: white;
-    width: 80%;  
 }
 
 #girls-silly {
@@ -81,6 +81,15 @@ p.thesisblock {
     margin-top: 5%;
     margin-bottom: 20%;
 }
+
+/*image*/
+
+/*text*/
+.block {
+    color: white;
+    width: 80%;  
+}
+
 /*SECTION #3*/
 
 .container {
@@ -95,13 +104,6 @@ p.thesisblock {
     color: white;
     opacity: 1;
     width: 100%;
-}
-
-.hikingvid {
-    height: 100vh;
-    width: 100vw;
-	/*background-attachment: fixed;*/
-    position: absolute;
 }
 
 #row4 video {
@@ -135,7 +137,6 @@ p.thesisblock {
 
 .text-block-2a {
   background-color: rgba(31,31,31,.75);
-  margin-left: -70px;
   margin-top: 0;
   
 }
@@ -196,11 +197,11 @@ p#scoutstory {
 	background-attachment: fixed;
 }
 
-#adelequote{
+.adelequote{
 	color: white;
 	font-size: 32px;
     margin-top: 0;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 33%;
     width: 70%;
 }
@@ -258,7 +259,7 @@ h3#scoutrankings {
     margin-left: 20%;
     background-color: rgba(31,31,31,0.75);
     padding: 1%;
-    width: 1000px;
+    width: 900px;
 }
 
 /*SECTION 9*/
@@ -372,12 +373,6 @@ img#graphic {
 }
 
 /*SECTION 11*/
-.section11class {
-    height: 100%;
-    background: url(../assets/ltgreybg-01.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 h3#why-BSA {
     color: black;
@@ -443,12 +438,6 @@ img.tagalong {
 
 
 /*SECTION 13*/
-.sevenranges {
-  background-color: #1F1F1F;
-  height: 100vh;
-  width: 100vw;
-  padding-bottom:0%;
-}
 
 img.scanned1 {
   width: 20%;
