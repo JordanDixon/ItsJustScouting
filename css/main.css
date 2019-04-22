@@ -1,6 +1,17 @@
-html{
+html {
     overflow-x: hidden;
 }
+
+body {
+    width: 100%;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
 
 h1, h3, h4{
   font-family: 'Roboto Slab', serif;
@@ -30,9 +41,25 @@ audio {
     flex-direction: row;
 }
 
-
 /* Its Just Scouting Hero*/
 /* this class will make 'image' responsive*/
+
+#row1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+#row1bg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    overflow: hidden;
+    background-image: url(../img/Rogers_Selects022crop.jpg);
+    position: fixed;
+    z-index: -100; 
+}
 
 /*Hero Text */
 .IJS-graphic {
@@ -45,7 +72,22 @@ audio {
   margin-left: 20%;
 }
 
-/* SECTION 2 */
+#row2 {
+    background-color: black;
+    opacity: .8;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* THESIS */
+
+#row3 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding-bottom: 10%;
+}
+
 .thesis-heading {
     color: white;
     display: block;
@@ -62,13 +104,6 @@ p.thesisblock {
     color: white;
 }
 
-/*image*/
-.girls-silly {
-    width:  100%;
-    padding: 20px 20px 20px 20px;
-}
-
-/*text*/
 .block {
     color: white;
     width: 80%;  
@@ -81,14 +116,26 @@ p.thesisblock {
     margin-top: 5%;
     margin-bottom: 20%;
 }
-/*SECTION #3*/
 
-.container {
-  position: relative; 
+/*HIKING VID STYLING*/
+
+#row4 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
 }
 
-.container2 {
-  position: relative; 
+#row4text {
+    position: relative;
+    z-index: 100;
+    margin-top: -320px;
+}
+
+#row4 video {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 .NN-text {
@@ -117,15 +164,7 @@ p.thesisblock {
 }
 
 
-/*SECTION 4*/
-.salutephoto {
-    height: 100vh;
-    width: 100vw;
-    background:url(../img/Rogers_Selects031.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/*HIKING VIDEO BOX STYLING*/
 
 .NN-text {
     color: white;
@@ -140,32 +179,13 @@ p.thesisblock {
   
 }
 
-/*SECTION 5*/
-#meetingvideo {
-    margin-left: 0%;
-    max-width: 100%;
-    height: auto;
-	background-attachment: fixed;
-	padding: 2%;
-}
-.cubscoutmeeting {
-    background-color: #1f1f1f;
-}
-
-.cubscoutmeeting iframe {
-   margin-left: 12%;
-}
-
-/*SECTION 6*/
-
-/*SECTION 7*/
+/*JAMIE QUOTE STYLING*/
 
 #greenborder1 {
 	border-left: 2px solid #8EB950;
     margin-left: 50px;
-
-	
 }
+
 .attributionj {
     color: black;
     font-size: 16px;
@@ -174,26 +194,35 @@ p.thesisblock {
     font-style: italic;
 }
 
-#ms-heading {
-    color: white;
-    margin-left: 120%;
-    margin-top: -350px;
-    width: 70%;
-    font-weight: 500;
-}
+/*CUB SCOUT MEETINGS*/
 
-
-p#scoutstory {
-    color: white;
-    width: 500px;
-    margin-left: 25%;
-    margin-top: 25%;
-}
-
-.meetingstory {
-    margin-top: 87px;
+#row6 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F1F1F;
     position: relative;
-	background-attachment: fixed;
+
+}
+
+#row7 {
+    height: 100vh;
+    width: 100vw;
+    background: url(../img/Rogers_Selects032.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    position: absolute;
+}
+
+#row8bg {
+    height: 100vh;
+    width: 100vw; 
+    position: relative;
+    z-index: 100;
+	background-color: rgba(31,31,31,.75);
+	opacity: 1;
+	
 }
 
 #adelequote{
@@ -238,20 +267,26 @@ p#scoutstory {
 }
 
 
-/*SECTION 8*/
+
+/*BADGES LAYOUT*/
+
+#row9 {
+    height: 110vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+}
+
+.container {
+  position: relative; 
+}
+
 h3#scoutrankings {
     color: white;
     margin-left: 33%;
     margin-top: 5%;
     font-size: 50px;
     width: 100%;
-}
-
-.badges {
-  height: 900px;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
 }
 
 #rankingtext {
@@ -261,7 +296,16 @@ h3#scoutrankings {
     width: 1000px;
 }
 
-/*SECTION 9*/
+/*LAWSUIT AND HISTORY*/
+
+div#history{
+    height: 410vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+    position: relative;
+    padding-top: 0%;
+   
+}
 
 #lawsuit-heading {
     color: white;
@@ -287,8 +331,7 @@ img#graphic {
     margin-top: 1%;
     color: lightgray;
     font-size: 12px;
-    margin-left: 450px;
-    
+    margin-left: 400px;  
 }
 
 .lawsuit {
@@ -298,7 +341,72 @@ img#graphic {
     color:  white;
 }
 
-/*SECTION 10*/
+/*tagalong stuff*/
+
+#greybg {
+    height: 300vh;
+    width: 100vw;
+	background-color: #D6D6D6;
+}
+
+#row11 {
+    height: 100vh;
+    width: 100vw;
+	background-color: none;
+}
+
+#pq-jamie {
+    margin-left: 4%;
+    margin-top: 33%;
+    color: black;
+    width: 600px;
+    font-size: 32px;
+}
+
+#jamie-audio {
+    margin-top: -50px;
+    margin-left: 170px;
+    display: block;
+} 
+
+.tagalongtext {
+	width: 600px;
+	color: black;
+}
+
+img.tagalong {
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    border: 10px solid white;
+}
+
+
+/* ---------- ROW 10 ----*/
+
+#row10 {
+    height: 100vh;
+    width: 100vw;
+	background-color: none;
+}
+
+/* ---------- ROW 12 ----*/
+#row12 {
+    height: 100vh;
+    width: 100vw;
+	background-color: none;
+
+}
+
+/*TONY SECTION*/
+
+#row14 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+}
+
 .tonyintro {
   background: url(../img/rogers_selects_038-1.jpg);
   height: 100vh;
@@ -346,6 +454,8 @@ img#graphic {
     border-left: 4px solid green;
 }
 
+
+
 #tonyvideo {
     height: 800px;
     position: relative;
@@ -353,70 +463,29 @@ img#graphic {
     padding: 2%;
 }
 
-/*COLOR GUARD*/
-.colorguard {
- height: 100vh;  
- background-color: #1F1F1F;
+
+
+/* ---------- ROW 15 ----*/
+#row15 {
+	height: 100vh;
+    width: 100vw;
+    position: relative;
+	background-color: #1F1F1F;
+    padding-bottom: 5%;
 }
+
 
 #row15 img {
     width: 100%;
     height: auto;
     padding-right: 50px;
+    padding-top: 50px;
 }
 
 #row15 p {
     color: white;
     margin-left: 10%;
 	margin-top: 10%;
-}
-
-/*SECTION 11*/
-.section11class {
-    height: 100%;
-    background: url(../assets/ltgreybg-01.png);
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-h3#why-BSA {
-    color: black;
-    margin-left: 17%;
-    margin-top: 17%;
-    width: 60%;
-}
-
-p.why-BSA{
-    color: black;
-    margin-left: 20%;
-    margin-top: 5%;
-    width: 60%;
-}
-
-#pq-jamie{
-    margin-left: 4%;
-    margin-top: 33%;
-    color: black;
-    width: 600px;
-    font-size: 32px;
-}
-
-#jamie-audio {
-    margin-top: -50px;
-    margin-left: 170px;
-    display: block;
-} 
-
-.tagalongtext {
-	width: 600px;
-	color: black;
-}
-
-img.tagalong {
-    width: 90%;
-    height: auto;
-    margin-top: 5%;
-    border: 10px solid white;
 }
 
 /*FAMILY PICS*/
@@ -438,16 +507,26 @@ img.tagalong {
 }
 
 #familygallery, #campkootaga {
-  padding: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
+/*GALLERY 1*/
+#row16 {
+	height: 100vh;
+    width: 100vw;
+    position: relative;
+	background-color: #1F1F1F;
+    padding-bottom: 0;
+}
 
-/*SECTION 13*/
-.sevenranges {
-  background-color: #1F1F1F;
-  height: 100vh;
-  width: 100vw;
-  padding-bottom:0%;
+/* SEVEN RANGES */
+#row17 {
+	height: 150vh;
+    width: 100vw;
+    position: relative;
+	background-color: #1F1F1F;
+    padding-bottom: 0px;
 }
 
 img.scanned1 {
@@ -471,69 +550,97 @@ p#sevenranges {
     margin-left: 35%;
 }
 
-/*HENRY SECTION*/
+/* ---------- jamie video ----*/
 
-#row18 img {
-    width: 50%;
-    margin-top: 6%;
-    margin-left: 25%;
+#row19 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+    
 }
 
-#row18 p {
-    color: white;
-    margin-left: 30%;
-     margin-top: 3%;
+/* ---------- gallery 2 ----*/
+#row21 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+    
 }
 
-.pq-henry{
-    margin-left: 30%;
-    margin-top: 5%;
-    color: white;
-    width: 600px;
-    font-size: 32px;
+/* ---------- FOOTER ----*/
+
+#row23 {
+    width: 100%;
+    position: relative;
+    background-color: #8EB950;
+    color: #ffffff;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.attributionh {
-    color: white;
-    font-size: 16px;
-    margin-left: 20px;
-    font-style: italic;
+#copyright {
+    margin-left: 0;
+    margin-top: 130px;
+    width: 100%;
 }
 
-#henry-audio {
-    margin-top: 0px;
+.evann {
     margin-left: 0%;
-    padding: 10px;
+    margin-top: 0%;
 }
 
-#henryquote{
-	color: white;
-	font-size: 32px;
+.elisabeth {
+    margin-left: 10%;
+    margin-top: 0%;
 }
 
-#greenborder2 {
-  border-left: 2px solid #8EB950;
+.jordan {
+    margin-left: 10%;
+    margin-top: 0%;
+}
+
+.megan {
+    margin-left: 90%;
+    margin-top: -100px;
+}
+
+.carolyn {
+    margin-left: 120%;
+    margin-top: -130px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .vertical-center {
+        flex-direction: column;
+    }
+    
+    #intro {
+    top: 10%;
+    z-index: 200;
+    top: 27%;
+}
+
+  
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
   
 }
 
-/*SECTION 14*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
 
-.jamievideo {
-    background-color: #1F1F1F;
-    height: 100vh;
+.IJS-graphic {
+    display: col-lg-12
+    
 }
-
-.jamievideo iframe {
-    margin-left: 12%;
-    position: relative;
-}
-
-/*ALL DROP CAPS*/
-p.drop-cap {
-    font-family: 'Lato';
-    font-weight: 900;
-}
-
 
 
 @keyframes colorize {
@@ -546,28 +653,3 @@ p.drop-cap {
         filter: grayscale(0%);
     }
 }
-
-
-
-
-/* OPPOSITION 
-#opposition-header {
-    color: white;
-    margin-left: 20%;
-    margin-top: 0%;
-    width: 60%;  
-}
-
-p#opposition{
-    color: white;
-    margin-left: 20%;
-    margin-top: 2%;
-    width: 60%;
-}
-
-.archive {
-   width: 50%;
-   height; 50%;
-   margin-left: 20%;
-    
-}*/
