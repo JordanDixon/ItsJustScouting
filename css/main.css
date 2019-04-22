@@ -1,3 +1,11 @@
+.background {
+    background-color: red;
+}
+
+.background2 {
+    background-color: blue;
+}
+
 html {
     overflow-x: hidden;
 }
@@ -11,8 +19,6 @@ body {
     align-items: center;
 }
 
-
-
 h1, h3, h4{
   font-family: 'Roboto Slab', serif;
 }
@@ -22,12 +28,6 @@ p {
   line-height: 1.8;
   font-size: 16px;
   font-weight: normal;
-  width: 480px;
-}
-
-video {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 audio {
@@ -63,13 +63,11 @@ audio {
 
 /*Hero Text */
 .IJS-graphic {
-    width: 100%;
-    margin-top: 6%;
+    margin-top: 60%;
 }
 
 .IJS-graphic img{
-  width: 60%;
-  margin-left: 20%;
+  width: 100%;
 }
 
 #row2 {
@@ -77,6 +75,10 @@ audio {
     opacity: .8;
     height: 100vh;
     width: 100vw;
+}
+
+.scrollarrow {
+    margin-top: 50%;
 }
 
 /* THESIS */
@@ -92,7 +94,6 @@ audio {
     color: white;
     display: block;
     vertical-align: center;
-    width: 500px;
 }
 
 #intro { 
@@ -118,24 +119,27 @@ p.thesisblock {
 }
 
 /*HIKING VID STYLING*/
-
 #row4 {
     height: 100vh;
     width: 100vw;
     position: relative;
-    z-index: 0;
-}
-
-#row4text {
-    position: relative;
-    z-index: 100;
-    margin-top: -320px;
+    background-color: #1F1F1F;
+    overflow: hidden;
 }
 
 #row4 video {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#row4text {
 }
 
 .NN-text {
@@ -144,23 +148,9 @@ p.thesisblock {
     width: 100%;
 }
 
-.hikingvid {
-    height: 100vh;
-    width: 100vw;
-	/*background-attachment: fixed;*/
-    position: absolute;
-}
-
 #row4 video {
-    position: absolute;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    object-fit: cover;
-    overflow: hidden;
 }
 
 
@@ -201,7 +191,6 @@ p.thesisblock {
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
-
 }
 
 #row7 {
@@ -574,7 +563,7 @@ p#sevenranges {
 #row23 {
     width: 100%;
     position: relative;
-    background-color: #8EB950;
+    background-color: #333;
     color: #ffffff;
     padding: 5%;
     margin-left: auto;
@@ -587,8 +576,12 @@ p#sevenranges {
     width: 100%;
 }
 
+.logo {
+     margin-left: -50px;
+}
+
 .evann {
-    margin-left: 0%;
+    margin-left: -300px;
     margin-top: 0%;
 }
 
@@ -598,49 +591,48 @@ p#sevenranges {
 }
 
 .jordan {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 0%;
 }
 
 .megan {
-    margin-left: 90%;
-    margin-top: -100px;
+    margin-left: 15%;
+    margin-top: 0px;
 }
 
 .carolyn {
-    margin-left: 120%;
-    margin-top: -130px;
+    margin-left: 10%;
+    margin-top: 0px;
+    
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-    .vertical-center {
-        flex-direction: column;
-    }
+@media only screen and (max-width: 719px) {
+ 
+    .IJS-graphic {
+    margin-top: 80%;
+}
+  
+ #intro { 
+	padding: 5%;
+    margin-top: -120px;
+ }
     
-    #intro {
-    top: 10%;
-    z-index: 200;
-    top: 27%;
+.row {
+    display: flex;
+    flex-direction: column;
 }
 
-  
-  }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-
-  
+    
 }
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-
-.IJS-graphic {
-    display: col-lg-12
     
 }
+
 
 
 @keyframes colorize {
