@@ -298,7 +298,7 @@ CircleAudioPlayer.prototype = {
 
 // This is the First Audio Clip
 var cap = new CircleAudioPlayer({
-	audio: 'audio/adele_favthing.mp3',
+	audio: 'audio/allgoodthings.mp3',
   size: 60,
   borderWidth: 5
 });
