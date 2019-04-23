@@ -264,7 +264,8 @@ p.thesisblock {
 
 #trees {
     width: 70px;
-    margin-top: 3%;
+    height: auto;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 47%;
 }
@@ -337,7 +338,7 @@ h4#scoutrankings {
 /*LAWSUIT AND HISTORY*/
 
 div#history{
-    height: 410vh;
+    height: 350vh;
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
@@ -523,10 +524,16 @@ img.tagalong {
     margin-top: 100px;
 }
 .carousel-indicators li {
-    width: 18px; 
-    height: 18px;
+    width: 9px; 
+    height: 9px;
     border-radius: 40%;
 }
+
+.carousel-indicators {position: absolute;
+}
+
+.figure-caption {font-family: 'Roboto';
+margin-top: 1%;}
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
         width: 32px;
@@ -537,13 +544,12 @@ img.tagalong {
 }
 
 #familygallery, #campkootaga {
-  padding-left: 10%;
-  padding-right: 10%;
+  width: 80%;
 }
 
 /*GALLERY 1*/
 #row16 {
-	height: 100vh;
+	height: 120vh;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
@@ -578,6 +584,7 @@ p#sevenranges {
     margin-top: 2%;
     margin-left: 25%;
     width: 50%;
+    padding-bottom: 20%;
 }
 
 /* ---------- jamie video ----*/
@@ -586,7 +593,8 @@ p#sevenranges {
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-color: #1F1F1F; 
+    background-color: #1F1F1F;
+    padding-bottom: 15%;
 }
 
 #row19 iframe {
@@ -595,11 +603,23 @@ p#sevenranges {
 
 /* ---------- gallery 2 ----*/
 #row21 {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
     
+}
+/*last section*/
+#row22 {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+}
+
+#conclusion {
+    color: white;
+    width: 50%;
 }
 
 /* ---------- FOOTER ----*/
@@ -724,7 +744,9 @@ p#sevenranges {
     width: 75%;
     margin-left: 15%;
 }
-
+    .carousel-indicators {
+        margin-bottom: 12%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
