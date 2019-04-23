@@ -313,7 +313,7 @@ p.thesisblock {
 /*BADGES LAYOUT*/
 
 #row9 {
-    height: 110vh;
+    height: 150vh;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
@@ -326,16 +326,13 @@ p.thesisblock {
 
 h4#scoutrankings {
     color: white;
-    margin-left: 33%;
-    margin-top: 5%;
     width: 100%;
+    text-align: center;
 }
 
 #rankingtext {
-    margin-left: 20%;
-    background-color: rgba(31,31,31,0.75);
     padding: 1%;
-    width: 1000px;
+    width: 50%;
 }
 
 /*LAWSUIT AND HISTORY*/
@@ -346,18 +343,23 @@ div#history{
     background-color: #1F1F1F;
     position: relative;
     padding-top: 0%;
-   
+}
+
+#historyintro {
+    color: white;
+    width: 50%;
+    margin-left: 25%;
 }
 
 #lawsuit-heading {
     color: white;
     width: 100%;
-    margin-left: 43%;
+    margin-left: 40%;
 }
 
 .archive {
- width: 65%;
- margin-left: 15%;
+ width: 90%;
+ margin-left: 5%;
     
 }
 
@@ -394,7 +396,7 @@ img#graphic {
 #row11 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 }
 
 #pq-jamie {
@@ -429,14 +431,14 @@ img.tagalong {
 #row10 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 }
 
 /* ---------- ROW 12 ----*/
 #row12 {
     height: 100vh;
     width: 100vw;
-	background-color: none;
+	background-color: #D6D6D6;
 
 }
 
@@ -680,8 +682,27 @@ p#sevenranges {
     width: 90%;
 }
     
+#row8bg {
+    height: 100vh; 
+    height: 100vh; 
+    position: relative;
+    z-index: 100;
+	opacity: 1;
 }
 
+#row9 {
+    height: 500vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+    padding-top: 10%;
+}
+   #lawsuit-heading {
+    color: white;
+    width: 100%;
+    margin-left: 20%;
+} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
