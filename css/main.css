@@ -50,6 +50,17 @@ audio {
     width: 100vw;
 }
 
+#row1 h4 {
+    color: white;
+    text-align: center;
+    opacity: .85;
+    margin-top: -50px;
+}
+
+#presents {
+    font-family: 'Lato';
+}
+
 #row1bg {
     width: 100vw;
     height: 100vh;
@@ -68,6 +79,7 @@ audio {
 }
 
 .IJS-graphic img{
+  margin-top: 2%;
   width: 100%;
 }
 
@@ -710,6 +722,11 @@ p#sevenranges {
    #lawsuit-heading {
     color: white;
     width: 100%;
+    margin-left: 25%;
+} 
+    #lawsuit-heading-1 {
+    color: white;
+    width: 100%;
     margin-left: 29%;
 } 
     
@@ -737,6 +754,7 @@ p#sevenranges {
     
     #row19 iframe {
     width: 100%;
+ }
 }
     
     #historyintro {
@@ -747,6 +765,13 @@ p#sevenranges {
     .carousel-indicators {
         margin-bottom: 12%;
     }
+
+#row22 {
+    height: 150vh;
+    width: 100vw;
+    position: relative;
+    background-color: #1F1F1F;
+}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
