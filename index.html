@@ -36,7 +36,8 @@
       
 <div id="row1" class="d-flex justify-content-center align-items-center">
   <div id="row1bg"></div>
-  <div class="col-md-8 col-sm-12  IJS-graphic">
+  <div class="col-md-8 col-sm-12 IJS-graphic">
+      <h4 id="presents">SOUL OF ATHENS PRESENTS</h4>
       <img src="assets/its-just-scouting.svg" alt="its just scouting title">
     <div id="section05" class="scrollarrow background">
   		<a href="#row3"><span></span></a>
@@ -51,7 +52,7 @@
     
 <div id="row3" class="row vertical-center d-flex justify-content-center">
   <div class="col-md-6">
-    <img id="girls-silly" alt="mavery and adele making a funny face" src="img/Rogers_Selects017.jpg">
+    <img id="girls-silly" alt="maevry and adele making a funny face" src="img/Rogers_Selects017.jpg">
   </div>
   
   <div class="col-md-4" id="intro">
@@ -101,7 +102,7 @@
         <br>
         <br>
         
-      <h3 class="greenborder2" id="adelequote"> “I mean, I don’t want to sell cookies,” </h3>   
+      <h3 class="greenborder2" id="adelequote"> “I mean, I don’t want to sell cookies.” </h3>   
       <p class="quote1name block">-Adele McCombs</p>
     </div> 
 </div>
@@ -297,7 +298,7 @@ In 2018, girls were first allowed to join the Cub Scout Program due to a new rec
                                     <h4 class="card-title">Boy Scout</h4>
                                   </div>
                                   <div class="card-block">
-                                    <p class="card-text">The first rank in Boy Scouts, to which Maevry and Adele will gradu</p>
+                                    <p class="card-text">The first rank in Boy Scouts, to which Maevry and Adele will graduate next year. </p>
                                   </div>
                                 </div>
                             </div>
@@ -319,7 +320,7 @@ In 2018, girls were first allowed to join the Cub Scout Program due to a new rec
         
         <img src="img/trees.png" id="trees">
         <br><br>
-        <h3 id="lawsuit-heading">History of Scouting</h3>
+        <h3 id="lawsuit-heading-1">History of Scouting</h3>
         <p class="lawsuit">BSA was founded in 1910. The organization aimed to prepare young men for the life ahead of them and instill the values of the Scout Oath and Law. 
  
         <br><br> 
@@ -433,7 +434,7 @@ In 2018, girls were first allowed to join the Cub Scout Program due to a new rec
 	  <img class="scanned1" alt="earned 7 ranges badge 1" src="img/badge2.jpg">
 	  <img class="scanned2" alt="earned 7 ranges badge 2" src="img/badge3.jpg">
 
-	 <p id="sevenranges"><strong>MAVERY AND</strong> Adele were the first two girls to attend Seven Ranges Scout Reservation on the Webelo Resident Camp Program, which is for boys and girls who are transitioning from Cub Scouts to Scouts BSA. Seven Ranges has been operated under the Buckeye Council since 1987 and each summer over 5,000 campers gather in Kensington, Ohio. <br>Older Scouts earn work towards merit badges while at the Webelo Resident Camp the girls and other Webelos earn their colors and work towards their arrow of light, which is the only badge a cub scout can carry over to Scouts BSA. <br> <br>
+	 <p id="sevenranges">Maevry and Adele were the first two girls to attend Seven Ranges Scout Reservation on the Webelo Resident Camp Program, which is for boys and girls who are transitioning from Cub Scouts to Scouts BSA. Seven Ranges has been operated under the Buckeye Council since 1987 and each summer over 5,000 campers gather in Kensington, Ohio. <br>Older Scouts earn work towards merit badges while at the Webelo Resident Camp the girls and other Webelos earn their colors and work towards their arrow of light, which is the only badge a cub scout can carry over to Scouts BSA. <br> <br>
      The Webelo Colors are optional yellow, red, and green emblem onto which the Webelos Activity Badges and Arrow of Light Adventure Pins may be pinned. It is worn on the right sleeve immediately below and touching the U.S. flag. Mavery and Adele last summer earn their Craftsman badge and the Aquanaut badge.</p>
 	</div>
   </div>     
@@ -513,7 +514,7 @@ In 2018, girls were first allowed to join the Cub Scout Program due to a new rec
 </div><!--end row21-->
     
 <div id="row22" class="vertical-center d-flex justify-content-center">
-    <p id="conclusion">
+  <p id="conclusion">
     The twins look forward to attending Seven Ranges again this summer to complete the activity badges for their Arrow of Light, the only badge a Cub Scout can carry over to Scouts BSA. They want to continue to learn and grow and become Boy Scouts when they are old enough.   
     <br><br>
     Until then, they will continue to be kids. They will ride their bikes to school and play outside with their friends. They will cook dinner with their dad. 
@@ -612,7 +613,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".pinned-cont", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     //MAKE FADE IN FASTER
             new ScrollMagic.Scene({
@@ -621,7 +621,6 @@ $(function() {
                 duration: "30%"
             })
                 .setTween(fadeInBg)
-                .addIndicators()
                 .addTo(controller);
     
     //SCENE 2
@@ -631,7 +630,7 @@ $(function() {
                     duration: "200%"
                 })
                 .setPin(".trigger2", {pushFollowers: false})
-                .addIndicators()
+
                 .addTo(controller);
     
     //SCENE 3
@@ -641,7 +640,6 @@ $(function() {
                     duration: "300%"
                 })
                 .setPin(".trigger3", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
      //SCENE 4 fadebg2
             new ScrollMagic.Scene({
@@ -650,7 +648,6 @@ $(function() {
                     duration: "40%"
                 })
                 .setTween(fadeInBg2)
-                .addIndicators()
                 .addTo(controller);
     //SCENE 4
             new ScrollMagic.Scene({
@@ -659,7 +656,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".trigger4", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     //SCENE 5
             new ScrollMagic.Scene({
@@ -668,7 +664,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".trigger5", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     
      //SCENE 6
@@ -678,7 +673,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".trigger6", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     
     //SCENE 7
@@ -688,7 +682,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".trigger7", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     
     //SCENE 8
@@ -698,7 +691,6 @@ $(function() {
                     duration: "100%"
                 })
                 .setPin(".trigger8", {pushFollowers: false})
-                .addIndicators()
                 .addTo(controller);
     
     //SCENE 9
