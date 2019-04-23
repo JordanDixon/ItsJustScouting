@@ -1,18 +1,20 @@
+.allwaypoints {
+    background: #1F1F1F;
+}
+
 #waypoint1{
   position: relative;
-  height: 100vh;
   background: #1F1F1F;
+  
 }
 
 #waypoint2{
   position: relative;
-  height: 100vh;
   background: #1F1F1F;
 }
 
 #waypoint3{
   position: relative;
-  height: 100vh;
   background: #1F1F1F;
 }
 
@@ -24,7 +26,7 @@
   transform: translatex(-50%) translatey(-50%);
   color: white;
   font-weight: lighter;
-  font-size: 7em;
+  font-size: 3rem;
 }
 
 #waypoint2 #counter2{
@@ -35,7 +37,7 @@
   transform: translatex(-50%) translatey(-50%);
   color: white;
   font-weight: lighter;
-  font-size: 7em;
+  font-size: 3rem;
 }
 
 #waypoint3 #counter3{
@@ -46,5 +48,5 @@
   transform: translatex(-50%) translatey(-50%);
   color: white;
   font-weight: lighter;
-  font-size: 7em;
+  font-size: 3rem;
 }

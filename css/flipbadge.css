@@ -59,31 +59,31 @@
 #bobcat {
     margin-top: 0%;
     margin-left: 0%;
-    width: 100%;
+    width: 120%;
 }
 
 #tiger {
     margin-top: 0px;
     margin-left: 30%;
-    width: 100%;
+    width: 120%;
 }
 
 #wolf {
     margin-top: 0px;
     margin-left: 60%;
-    width: 100%;
+    width: 120%;
 }
 
 #bear {
     margin-top: 0px;
     margin-left: 90%;
-    width: 100%;  
+    width: 120%;  
 }
 
 #webelo {
     margin-top: 0px;
     margin-left: 120%;
-    width: 100%;
+    width: 120%;
 }
 
 /*End Badge Section*/
