@@ -3,6 +3,13 @@
   margin: 0 auto;
   cursor: pointer;
 }
+
 #playerContainer {
   padding: 24px;
+  padding-top: 10px;
+}
+
+#playerContainer2 {
+  padding: 0px;
+  margin-top: -70px;
 }

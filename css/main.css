@@ -275,7 +275,7 @@ p.thesisblock {
 
 
 #trees {
-    width: 70px;
+    width: 90px;
     height: auto;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -306,6 +306,11 @@ p.thesisblock {
 #row9a p {
     color: white;
     width: 50%;
+}
+
+#row9a h3 {
+    color: white; 
+    margin-top: 10%;
 }
 
 .subhead {
@@ -364,6 +369,12 @@ div#history{
 }
 
 #lawsuit-heading {
+    color: white;
+    width: 100%;
+    margin-left: 40%;
+}
+
+#lawsuit-heading-1 {
     color: white;
     width: 100%;
     margin-left: 40%;
@@ -570,11 +581,11 @@ margin-top: 1%;}
 
 /* SEVEN RANGES */
 #row17 {
-	height: 125vh;
+	height: 160vh;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
-    padding-bottom: 0px;
+    padding-bottom: 0%;
 }
 
 img.scanned1 {
@@ -599,6 +610,19 @@ p#sevenranges {
     padding-bottom: 20%;
 }
 
+#maevryquote {
+	color: white;
+	font-size: 32px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.quote2 {
+    width: 50%;
+    margin-top: -200px;
+    margin-left: 25%;
+}
+
 /* ---------- jamie video ----*/
 
 #row19 {
@@ -606,6 +630,7 @@ p#sevenranges {
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
+    padding-top: 30%;
     padding-bottom: 15%;
 }
 
@@ -685,11 +710,11 @@ p#sevenranges {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 719px) {
+@media only screen and (max-width: 768px) {
  
     .IJS-graphic {
     margin-top: 80%;
-}
+ }
   
  #intro { 
 	padding: 5%;
@@ -719,11 +744,17 @@ p#sevenranges {
     background-color: #1F1F1F;
     padding-top: 10%;
 }
+
+ #row9a {
+    height: 100vh;   
+}
+     
    #lawsuit-heading {
     color: white;
     width: 100%;
     margin-left: 25%;
 } 
+    
     #lawsuit-heading-1 {
     color: white;
     width: 100%;
@@ -736,6 +767,7 @@ p#sevenranges {
     width: 75%;
     color:  white;
 }
+    
     #row14 iframe {
         width: 100%;
     }
@@ -748,23 +780,37 @@ p#sevenranges {
       width: 75%; 
     }
     
+    #row9a h3 {
+        
+    }
+    
     p#sevenranges {
     margin-top: 6%;
+    }
+    
+    .quote2 {
+    width: 90%;
+    margin-top: 100px;
+        
     }
     
     #row19 iframe {
     width: 100%;
  }
-}
     
-    #historyintro {
+#historyintro {
     color: white;
     width: 75%;
     margin-left: 15%;
 }
-    .carousel-indicators {
-        margin-bottom: 12%;
-    }
+
+ .carousel-indicators {
+    margin-bottom: 13%;
+}
+    
+ .quote1name {
+     text-align: center;   
+ }
 
 #row22 {
     height: 150vh;
@@ -772,10 +818,58 @@ p#sevenranges {
     position: relative;
     background-color: #1F1F1F;
 }
+    
+#row17 {
+	height: 200vh;
+    width: 100vw;
+    position: relative;
+	background-color: #1F1F1F;
+    padding-bottom: 0px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+#playerContainer2 {
+    margin-top: 0%;   
+}
+    
+.card-text {
+        padding: 0%;
+        font-size: 8px;
+    }
+    
+}
+
+/* Medium devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+    
+    #historyintro {
+    color: white;
+    width: 75%;
+    margin-left: 15%; 
+    }
+    
+    .card {
+    height: 250px;
+}
+    
+    .card-text {
+        padding: 3%;
+        font-size: 14px;
+    }
+    
+    #playerContainer2 {
+        padding: 0px;
+        margin-top: 10%;
+    }
+    
+.quote2 {
+    width: 50%;
+    margin-top: -150px;
+    margin-left: 25%;
+}
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
     
 }
 
