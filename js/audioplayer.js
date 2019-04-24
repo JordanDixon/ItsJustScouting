@@ -298,7 +298,7 @@ CircleAudioPlayer.prototype = {
 
 // This is the First Audio Clip
 var cap = new CircleAudioPlayer({
-	audio: 'audio/adele_favthing.mp3',
+	audio: 'audio/cubscoutphotoaudio.mp3',
   size: 60,
   borderWidth: 5
 });
@@ -306,7 +306,7 @@ cap.appendTo(playerContainer);
 
 // This is the Second Audio Clip
 var cap = new CircleAudioPlayer({
-	audio: 'audio/finaljamie.mp3',
+	audio: 'audio/mavery_sevenranges.mp3',
   size: 60,
   borderWidth: 5
 });
