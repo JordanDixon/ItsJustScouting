@@ -1,10 +1,3 @@
-.background {
-    background-color: red;
-}
-
-.background2 {
-    background-color: blue;
-}
 
 html {
     overflow-x: hidden;
@@ -508,16 +501,12 @@ img.tagalong {
     border-left: 4px solid green;
 }
 
-
-
 #tonyvideo {
     height: 800px;
     position: relative;
     margin-top: 0px;
     padding: 2%;
 }
-
-
 
 /* ---------- ROW 15 ----*/
 #row15 {
@@ -623,6 +612,10 @@ p#sevenranges {
     margin-left: 25%;
 }
 
+.quote2name {
+     text-align: right;   
+ }
+
 /* ---------- jamie video ----*/
 
 #row19 {
@@ -712,7 +705,7 @@ p#sevenranges {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {
  
-    .IJS-graphic {
+.IJS-graphic {
     margin-top: 80%;
  }
   
@@ -725,9 +718,14 @@ p#sevenranges {
     display: flex;
     flex-direction: column;
 }
+    
 .quote1 {
     width: 90%;
 }
+
+#maevryquote {
+        margin-top: 50%;
+    } 
     
 #row8bg {
     height: 100vh; 
@@ -758,8 +756,11 @@ p#sevenranges {
     #lawsuit-heading-1 {
     color: white;
     width: 100%;
-    margin-left: 29%;
+    margin-left: 15%;
 } 
+    #trees {
+         margin-left: 33%;
+    }
     
     .lawsuit {
     margin-left: 15%;
@@ -788,29 +789,33 @@ p#sevenranges {
     margin-top: 6%;
     }
     
-    .quote2 {
-    width: 90%;
-    margin-top: 100px;
-        
-    }
-    
     #row19 iframe {
     width: 100%;
  }
     
-#historyintro {
+    #historyintro {
     color: white;
     width: 75%;
     margin-left: 15%;
 }
 
- .carousel-indicators {
+    .carousel-indicators {
     margin-bottom: 13%;
 }
     
- .quote1name {
+    .quote1name {
      text-align: center;   
  }
+    
+    .quote2name {
+     text-align:left;
+    margin-top: 0%;
+ }
+
+    .audio2{
+        padding-top: 45%;
+    }
+    
 
 #row22 {
     height: 150vh;
@@ -820,7 +825,7 @@ p#sevenranges {
 }
     
 #row17 {
-	height: 200vh;
+	height: 250vh;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
@@ -828,7 +833,7 @@ p#sevenranges {
 }
 
 #playerContainer2 {
-    margin-top: 0%;   
+    padding-top: 40%;
 }
     
 .card-text {
@@ -841,6 +846,12 @@ p#sevenranges {
 /* Medium devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     
+    #intro { 
+	padding-left: 5%;
+    margin-top: -100px;
+    height: 70%;
+ }
+    
     #historyintro {
     color: white;
     width: 75%;
@@ -852,8 +863,8 @@ p#sevenranges {
 }
     
     .card-text {
-        padding: 3%;
-        font-size: 14px;
+        padding: %;
+        font-size: 13px;
     }
     
     #playerContainer2 {
@@ -863,9 +874,26 @@ p#sevenranges {
     
 .quote2 {
     width: 50%;
+    height: 100px;
     margin-top: -150px;
     margin-left: 25%;
-}
+  }
+    
+   .quote2name {
+     text-align: left;   
+ }
+
+    
+    .lawsuit-heading-1 {
+    color: white;
+    width: 100%;
+    margin-left: 40%;   
+    }
+    
+     .audio2{
+        padding-top: 1%;
+        padding-left: 12%;
+    }
     
 }
 /* Large devices (laptops/desktops, 992px and up) */
