@@ -17,13 +17,20 @@ h1, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
 
+a {
+    color: white;
+}
 
+a:hover {
+    color: #8eb950;
+}
 
 p {
   font-family: 'Lato';
   line-height: 1.8;
   font-size: 16px;
   font-weight: normal;
+    width: 480px;
 }
 
 audio {
@@ -32,10 +39,10 @@ audio {
     padding: 10px;
 }
 
-.row {
+/*.row {
     display: flex;
     flex-direction: row;
-}
+}*/
 
 /* Its Just Scouting Hero*/
 /* this class will make 'image' responsive*/
@@ -256,13 +263,13 @@ p.thesisblock {
 }
 
 .audio1 {
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 #adele-audio {
    margin-left: 45%; 
    display: block;
-   margin-top: -53px;
+   margin-top: 0px;
 }
 
 #scoutmeetings {
@@ -279,7 +286,7 @@ p.thesisblock {
     height: auto;
     margin-top: 0%;
     margin-bottom: 3%;
-    margin-left: 47%;
+    margin-left: 44%;
 }
 
 .attributiona {
@@ -335,18 +342,19 @@ p.thesisblock {
 /*BADGES LAYOUT*/
 
 #row9 {
-    height: 150vh;
+    height: auto;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
     padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .container {
   position: relative; 
 }
 
-h4#scoutrankings {
+h3#scoutrankings {
     color: white;
     width: 100%;
     text-align: center;
@@ -360,7 +368,7 @@ h4#scoutrankings {
 /*LAWSUIT AND HISTORY*/
 
 div#history{
-    height: 370vh;
+    height: auto;
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
@@ -394,16 +402,17 @@ div#history{
 #CR {
     font-size: 14px;
     opacity: .25;
-    width: 50%;
+    width: 30%;
+    padding-top: 2%;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 33%;
 }
 
 .lawsuit {
-    margin-left: 30%;
     padding: 0%;
-    width: 40%;
     color:  white;
+    width: 60%;
+    margin-left: 300px;
 }
 
 /*tagalong stuff*/
@@ -428,7 +437,7 @@ div#history{
 }
 
 #jamie-audio {
-    margin-top: -50px;
+    margin-top: 0px;
     margin-left: 170px;
     display: block;
 } 
@@ -515,7 +524,7 @@ img.tagalong {
 #attributiont {
     color: white;
     font-size: 16px;
-    margin-top: -30px;
+    margin-top: 0px;
     margin-left: 45%;
     font-style: italic;
     border-left: 4px solid green;
@@ -590,7 +599,7 @@ margin-top: 1%;}
 
 /* SEVEN RANGES */
 #row17 {
-	height: 160vh;
+	height: auto;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
@@ -600,23 +609,31 @@ margin-top: 1%;}
 img.scanned1 {
   width: 20%;
   height: auto;
-  margin-left: 28%;
-  margin-top: 5%;
+  margin-left: 27%;
+  margin-top: 0;
 }
 
 img.scanned2 {
   width: 20%;
   height: auto;
-  margin-left: 1%;
-  margin-top: 5%;
+  margin-left: 2%;
+  margin-top: 0;
 }
 
 p#sevenranges {
     color: white;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-left: 25%;
     width: 50%;
     padding-bottom: 20%;
+}
+
+p#sevenranges2 {
+    color: white;
+    margin-top: 15%;
+    margin-left: 25%;
+    width: 50%;
+    padding-bottom: 5%;
 }
 
 #maevryquote {
@@ -628,7 +645,7 @@ p#sevenranges {
 
 .quote2 {
     width: 50%;
-    margin-top: -200px;
+    margin-top: 0px;
     margin-left: 25%;
 }
 
@@ -638,18 +655,17 @@ p#sevenranges {
  }
 
   .audio2{
-        margin-top: 5%;
+        margin-top: 3%;
         padding-right: 0%;
     }
 
 /* ---------- jamie video ----*/
 
 #row19 {
-    height: 100vh;
+    height: auto;
     width: 100vw;
-    position: relative;
     background-color: #1F1F1F;
-    padding-top: 30%;
+    padding-top: 0%;
     padding-bottom: 15%;
 }
 
@@ -659,7 +675,7 @@ p#sevenranges {
 
 /* ---------- gallery 2 ----*/
 #row21 {
-    height: 120vh;
+    height:auto;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
@@ -667,7 +683,7 @@ p#sevenranges {
 }
 /*last section*/
 #row22 {
-    height: 80vh;
+    height: auto;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
@@ -675,7 +691,9 @@ p#sevenranges {
 
 #conclusion {
     color: white;
-    width: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 75%;
 }
 
 /* ---------- FOOTER ----*/
@@ -698,11 +716,11 @@ p#sevenranges {
 }
 
 .logo {
-     margin-left: -50px;
+     margin-left: 0px;
 }
 
 .evann {
-    margin-left: -300px;
+    margin-left: 0px;
     margin-top: 0%;
 }
 
@@ -727,6 +745,87 @@ p#sevenranges {
     
 }
 
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    
+/*#intro { 
+	padding-left: 5%;
+    margin-top: -100px;
+    height: 70%;
+ }*/
+    
+    #row3 {
+        height: auto;
+        background-color: #000000;
+        opacity: .8;
+    }
+    
+    #lawsuit-heading-1 {
+    color: white;
+    width: 100%;
+    margin-left: 33%;
+}
+
+    
+    #historyintro {
+    color: white;
+    width: 75%;
+    margin-left: 15%; 
+    }
+    
+    #CR {
+    font-size: 12px;
+    opacity: .25;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+    
+    .card {
+    height: 250px;
+}
+    
+    .card-text {
+        font-size: 13px;
+    }
+    
+    #playerContainer2 {
+        padding: 0px;
+        margin-top: 30px;
+    }
+    
+    #playerContainer {
+    padding: 0px;
+        margin-top: 30px;
+}
+
+    
+.quote2 {
+    width: 50%;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 25%;
+  }
+    
+   .quote2name {
+     text-align: left;   
+ }
+    
+     .lawsuit {
+    margin-left: 175px;
+        
+    }
+
+    
+     .audio2{
+        padding-top: 1%;
+        padding-left: 12%;
+    }
+    
+    
+    
+}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 768px) {
@@ -737,21 +836,59 @@ p#sevenranges {
   
  #intro { 
 	padding: 5%;
-    margin-top: -120px;
+    margin-top: 0px;
  }
     
-.row {
+    #row6 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1F1F1F;
+    position: relative;
+}
+/*.row {
     display: flex;
     flex-direction: column;
-}
+}*/
     
     div#history{
-    height: 170vh;
+    height: auto;
+        min-height: 100vh;}
+    
+    img.scanned1 {
+  width: 30%;
+  height: auto;
+  margin-left: 15%;
+  margin-top: 0;
 }
+
+img.scanned2 {
+  width: 30%;
+  height: auto;
+  margin-left: 0%;
+  margin-top: 0;
+}
+    
+    p#sevenranges2 {
+    color: white;
+    margin-top: 15%;
+    margin-left: 13%;
+    width: 75%;
+    padding-bottom: 5%;
+}
+
     
 .quote1 {
     width: 90%;
 }
+    
+    .audio1 {
+    margin-top: 0px;
+}
+    
+     .lawsuit {
+    margin-left: 300px;
+        
+    }
 
 #maevryquote {
         margin-top: 50%;
@@ -766,23 +903,20 @@ p#sevenranges {
 }
     
 #row8bg {
-    height: 100vh; 
-    height: 100vh; 
+    height: auto; 
+    width: 100vw; 
     position: relative;
     z-index: 100;
 	opacity: 1;
+    background-color: #1f1f1f;
 }
 
 #row9 {
-    height: 500vh;
-    width: 100vw;
-    position: relative;
-    background-color: #1F1F1F;
-    padding-top: 10%;
+    height: auto;
 }
 
  #row9a {
-    height: 100vh;   
+    height: auto;   
 }
      
    #lawsuit-heading {
@@ -801,6 +935,11 @@ p#sevenranges {
         padding-bottom: 10%;
     }
     
+    #row8bg { 
+    width: 100vw; 
+    padding-bottom: 25%;
+    
+}
     .lawsuit {
     margin-left: 15%;
     padding: 0%;
@@ -812,12 +951,15 @@ p#sevenranges {
         width: 100%;
     }
     
+    #row9a p {
+    height: auto;
+    padding-bottom: 15%;
+            width: 75%; 
+}
+    
     #row6 iframe {
       width: 100%;
-    }
-    
-    #row9a p {
-      width: 75%; 
+      height: 50vh;
     }
     
     #row9a h3 { 
@@ -825,6 +967,9 @@ p#sevenranges {
     
     p#sevenranges {
     margin-top: 6%;
+    margin-left: 13%;
+    width: 75%;
+    padding-bottom: 10%:
     }
     
     #row19 iframe {
@@ -855,6 +1000,15 @@ p#sevenranges {
         padding-right: 20%;
     }
     
+    .archive {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .quote2 {
+    width: 70%;
+    }
+    
 
 #row22 {
     height: 150vh;
@@ -864,11 +1018,15 @@ p#sevenranges {
 }
     
 #row17 {
-	height: 250vh;
+	height: auto;
     width: 100vw;
     position: relative;
 	background-color: #1F1F1F;
-    padding-bottom: 0px;
+    padding-bottom: 10%;
+}
+    
+#playerContainer {
+    padding-top: 40%;
 }
 
 #playerContainer2 {
@@ -877,64 +1035,16 @@ p#sevenranges {
     
 .card-text {
         padding: 0%;
-        font-size: 8px;
+        font-size: 16px;
+    }
+    
+    #rankingtext {
+        width: 80%;
     }
     
 }
 
-/* Medium devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    
-    #intro { 
-	padding-left: 5%;
-    margin-top: -100px;
-    height: 70%;
- }
-    
-    #historyintro {
-    color: white;
-    width: 75%;
-    margin-left: 15%; 
-    }
-    
-    .card {
-    height: 250px;
-}
-    
-    .card-text {
-        padding: %;
-        font-size: 13px;
-    }
-    
-    #playerContainer2 {
-        padding: 0px;
-        margin-top: 20%;
-    }
-    
-.quote2 {
-    width: 50%;
-    height: 100px;
-    margin-top: -150px;
-    margin-left: 25%;
-  }
-    
-   .quote2name {
-     text-align: left;   
- }
 
-    
-    .lawsuit-heading-1 {
-    color: white;
-    width: 100%;
-    margin-left: 40%;   
-    }
-    
-     .audio2{
-        padding-top: 1%;
-        padding-left: 12%;
-    }
-    
-}
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1200px) {
     
