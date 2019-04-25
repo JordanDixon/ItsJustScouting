@@ -13,9 +13,11 @@ body {
     align-items: center;
 }
 
-h1, h3, h4, h5 {
+h1, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
+
+
 
 p {
   font-family: 'Lato';
@@ -232,7 +234,8 @@ p.thesisblock {
 }
 
 .quote1name {
-    text-align: right;
+    text-align: left;
+    padding-left: 10%;
 }
 
 .greenborder2 {
@@ -250,6 +253,10 @@ p.thesisblock {
 	font-size: 32px;
     margin-top: 0;
     width: 100%;
+}
+
+.audio1 {
+    margin-top: -50px;
 }
 
 #adele-audio {
@@ -318,6 +325,11 @@ p.thesisblock {
     margin-top: 30%;
 }
 
+#title {
+    color: white;
+    margin-left: 20%;
+    font-family: 'Roboto Slab';
+}
 
 
 /*BADGES LAYOUT*/
@@ -374,9 +386,17 @@ div#history{
 }
 
 .archive {
- width: 90%;
- margin-left: 5%;
+ width: 30%;
+ margin-left: 33%;
     
+}
+
+#CR {
+    font-size: 14px;
+    opacity: .25;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
 }
 
 .lawsuit {
@@ -544,7 +564,7 @@ img.tagalong {
 .carousel-indicators {position: absolute;
 }
 
-.figure-caption {font-family: 'Roboto';
+.figure-caption {font-family: 'Roboto Slab';
 margin-top: 1%;}
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -613,7 +633,8 @@ p#sevenranges {
 }
 
 .quote2name {
-     text-align: right;   
+    text-align: left;
+    padding-left: 10%; 
  }
 
 /* ---------- jamie video ----*/
@@ -727,6 +748,14 @@ p#sevenranges {
         margin-top: 50%;
     } 
     
+    #CR {
+    font-size: 8px;
+    opacity: .25;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+    
 #row8bg {
     height: 100vh; 
     height: 100vh; 
@@ -781,8 +810,7 @@ p#sevenranges {
       width: 75%; 
     }
     
-    #row9a h3 {
-        
+    #row9a h3 { 
     }
     
     p#sevenranges {
@@ -813,7 +841,8 @@ p#sevenranges {
  }
 
     .audio2{
-        padding-top: 45%;
+        margin-top: 35%;
+        padding-right: 20%;
     }
     
 
