@@ -278,7 +278,7 @@ p.thesisblock {
     width: 90px;
     height: auto;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
     margin-left: 47%;
 }
 
@@ -360,7 +360,7 @@ h4#scoutrankings {
 /*LAWSUIT AND HISTORY*/
 
 div#history{
-    height: 350vh;
+    height: 370vh;
     width: 100vw;
     background-color: #1F1F1F;
     position: relative;
@@ -637,6 +637,11 @@ p#sevenranges {
     padding-left: 10%; 
  }
 
+  .audio2{
+        margin-top: 5%;
+        padding-right: 0%;
+    }
+
 /* ---------- jamie video ----*/
 
 #row19 {
@@ -654,7 +659,7 @@ p#sevenranges {
 
 /* ---------- gallery 2 ----*/
 #row21 {
-    height: 110vh;
+    height: 120vh;
     width: 100vw;
     position: relative;
     background-color: #1F1F1F;
@@ -740,6 +745,10 @@ p#sevenranges {
     flex-direction: column;
 }
     
+    div#history{
+    height: 170vh;
+}
+    
 .quote1 {
     width: 90%;
 }
@@ -789,6 +798,7 @@ p#sevenranges {
 } 
     #trees {
          margin-left: 33%;
+        padding-bottom: 10%;
     }
     
     .lawsuit {
@@ -898,7 +908,7 @@ p#sevenranges {
     
     #playerContainer2 {
         padding: 0px;
-        margin-top: 10%;
+        margin-top: 20%;
     }
     
 .quote2 {

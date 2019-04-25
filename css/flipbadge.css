@@ -50,6 +50,7 @@
 .card-text {
     width: 100%;
     padding: 5%;
+    text-align: center;
 }
 
 .card-title {
@@ -86,6 +87,10 @@
 #boyscout {
     margin-top: 0px;
     width: 100%;
+}
+
+#wb {
+    margin-left: 10%;
 }
 
 /*End Badge Section*/
